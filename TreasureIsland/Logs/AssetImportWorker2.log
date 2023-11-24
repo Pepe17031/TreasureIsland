@@ -1,0 +1,2221 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.9f1 (f3f94c8cdc49) revision 15989068'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60452
+Successfully changed project path to: C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
+C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [71056] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 4022016312 [EditorId] 4022016312 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [71056] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 4022016312 [EditorId] 4022016312 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 10.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.9f1 (f3f94c8cdc49)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.013097 seconds.
+- Loaded All Assemblies, in  0.609 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 482 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  1.057 seconds
+Domain Reload Profiling: 1664ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (985ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (641ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.252 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 2026ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (763ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (413ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (373ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (52.6 KB). Loaded Objects now: 3676.
+Memory consumption went from 129.4 MB to 129.3 MB.
+Total: 21.988700 ms (FindLiveObjects: 0.698300 ms CreateObjectMapping: 0.534600 ms MarkObjects: 20.584400 ms  DeleteObjects: 0.169100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 562447.649015 seconds.
+  path: Assets/OceanMap/Icons/Icon36.png
+  artifactKey: Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon36.png using Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d99797ffc65e165fdd356fb0884a8e') in 0.217985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/OceanMap/Icons/Icon31.png
+  artifactKey: Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon31.png using Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c035c807b6655ac42f3af355cf72522') in 0.012914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon12.png
+  artifactKey: Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon12.png using Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b539638b4e4dca5e60ea43530da53f8e') in 0.019189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OceanMap/Icons/Icon13.png
+  artifactKey: Guid(87caab1a0a6f4404b8a745e01208cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon13.png using Guid(87caab1a0a6f4404b8a745e01208cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e669515561d0797b14d8b3a03a58ed4') in 0.029052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon46.png
+  artifactKey: Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon46.png using Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777804cac7b799e58580477250dc692') in 0.015575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001751 seconds.
+  path: Assets/OceanMap/Icons/Icon16.png
+  artifactKey: Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon16.png using Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ca20d29c03735ce4102e21f0a1ee4a') in 0.010117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OceanMap/Icons/Icon27.png
+  artifactKey: Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon27.png using Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c4b524fd7ad9e7177cad27e64ef252') in 0.013105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094df909bf980afc0dd7abc8fd5dcf2a') in 0.018621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon47.png
+  artifactKey: Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon47.png using Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3759e3e4cbda2d1cf12a5c8b22288099') in 0.027782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OceanMap/Icons/Icon32.png
+  artifactKey: Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon32.png using Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c820750d5a30509315bd7e8f44a45') in 0.010268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/OceanMap/Icons/Icon34.png
+  artifactKey: Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon34.png using Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a81a948cca8c3644f780a39d7d766f0') in 0.006099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/OceanMap/Icons/Icon5.png
+  artifactKey: Guid(3e60bfb8d52e9cb489659785b6608b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon5.png using Guid(3e60bfb8d52e9cb489659785b6608b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8a0fee061420418e43ed547ba7ce22') in 0.006962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/OceanMap/Icons/Icon11.png
+  artifactKey: Guid(354155c89d4bb90489d98947380080ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon11.png using Guid(354155c89d4bb90489d98947380080ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e157ba1d71f6da944707c41782480380') in 0.006901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/OceanMap/Icons/Icon45.png
+  artifactKey: Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon45.png using Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da1736147ec5be44f5dcecc74352850') in 0.007119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/OceanMap/Icons/Icon6.png
+  artifactKey: Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon6.png using Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c41f9d225bf3f09ccf3cdfaf773b70') in 0.007062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/OceanMap/Icons/Icon1.png
+  artifactKey: Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon1.png using Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8c9f9d58ab2f2fa6e320a1fc88c1d') in 0.006853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.939392 seconds.
+  path: Assets/OceanMap/Icons/Icon14.png
+  artifactKey: Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon14.png using Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ed660bf5820ee6690af5eb8940a1df') in 0.009182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040396 seconds.
+  path: Assets/OceanMap/Icons/Icon1.png
+  artifactKey: Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon1.png using Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c115e697c43798b6709b414e8c306355') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OceanMap/Icons/Icon20.png
+  artifactKey: Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon20.png using Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8f1472312fdf15a889ad099b57dedf') in 0.058803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OceanMap/Icons/Icon31.png
+  artifactKey: Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon31.png using Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0846a8d9b2ae03b0459ea55ea1a5a5db') in 0.029610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/OceanMap/Icons/Icon28.png
+  artifactKey: Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon28.png using Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd9b1b4c54986e20585c6f3ceced873') in 0.026949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/OceanMap/Icons/Icon30.png
+  artifactKey: Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon30.png using Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3fb7953ca12dfbeab5167ad27be308') in 0.011937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OceanMap/Icons/Icon42.png
+  artifactKey: Guid(e60e282c886f0954f842fa12c3d363da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon42.png using Guid(e60e282c886f0954f842fa12c3d363da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cd86e42a99bb6f30b362fbee393ce8') in 0.022159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OceanMap/Icons/Icon8.png
+  artifactKey: Guid(67a5ae18052160648b30891d9185b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon8.png using Guid(67a5ae18052160648b30891d9185b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68634bc2e836312d4106079b08b0bf34') in 0.011495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OceanMap/Icons/Icon47.png
+  artifactKey: Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon47.png using Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b508afb393cd0474f09bd6e0fec64a') in 0.011099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OceanMap/Icons/Icon9.png
+  artifactKey: Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon9.png using Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a6482cddc3788e1e3a65d585d302e') in 0.010160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OceanMap/Icons/Icon10.png
+  artifactKey: Guid(a3146d3619c258143850fd7510fb40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon10.png using Guid(a3146d3619c258143850fd7510fb40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35be9a89565ae836c8911c9d90d86e1') in 0.010852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/OceanMap/Icons/Icon34.png
+  artifactKey: Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon34.png using Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455e620aaef3ea6aadae426e7b3f3324') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon40.png
+  artifactKey: Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon40.png using Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb7832dc75c1265ceee89dece316477') in 0.009469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon26.png
+  artifactKey: Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon26.png using Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bbbd370757c70ed45100921c46a7b6') in 0.012393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/OceanMap/Icons/Icon37.png
+  artifactKey: Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon37.png using Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7986eaaa944314841e59716f14c1a7d6') in 0.011144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OceanMap/Icons/Icon15.png
+  artifactKey: Guid(eaccfa57dc39b9541ac41d1a8aca5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon15.png using Guid(eaccfa57dc39b9541ac41d1a8aca5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5accf6d15a24a09af029910222111') in 0.008795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1796ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (974ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.4 KB). Loaded Objects now: 3680.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 6.909700 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.387100 ms MarkObjects: 6.042500 ms  DeleteObjects: 0.080600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.879 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1750ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (363ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.5 KB). Loaded Objects now: 3682.
+Memory consumption went from 124.6 MB to 124.5 MB.
+Total: 5.061600 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.386200 ms MarkObjects: 4.214000 ms  DeleteObjects: 0.060700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.726619 seconds.
+  path: Assets/OceanMap/Icons/Icon14.png
+  artifactKey: Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon14.png using Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea53b510ba60e7e77d6b67488f0f087a') in 0.079913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013527 seconds.
+  path: Assets/OceanMap/Icons/Icon3.png
+  artifactKey: Guid(66ce53aead01be24597109cbef600d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon3.png using Guid(66ce53aead01be24597109cbef600d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4911a80a32cbf1c00980457c6091a5ae') in 0.013671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/OceanMap/Icons/Icon25.png
+  artifactKey: Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon25.png using Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5200c1a29f94929fae0f44ea51282d') in 0.012509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/OceanMap/Icons/Icon20.png
+  artifactKey: Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon20.png using Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d62c473589e8d4f86b75d07b43eb66') in 0.012138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OceanMap/Icons/Icon36.png
+  artifactKey: Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon36.png using Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dbba90b58d28a2f951292c090d51cf') in 0.012918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon35.png
+  artifactKey: Guid(fb1d93d850c65984a810f631496c5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon35.png using Guid(fb1d93d850c65984a810f631496c5aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb24cb0b0d0af528431aadbbd8ede8a5') in 0.016774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/OceanMap/Icons/Icon19.png
+  artifactKey: Guid(ffae303913cba4040bff5128046ad23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon19.png using Guid(ffae303913cba4040bff5128046ad23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cb675ab5201e3a3e4c55ba121389e1') in 0.015557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OceanMap/Icons/Icon39.png
+  artifactKey: Guid(50edaaee9bed7914cac3227ea1c6da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon39.png using Guid(50edaaee9bed7914cac3227ea1c6da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1fd24e7c740111882b41e2c1b10cc8') in 0.030523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OceanMap/Icons/Icon28.png
+  artifactKey: Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon28.png using Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe75e66f0145dbb1d21cc4c0671c68') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OceanMap/Icons/Icon30.png
+  artifactKey: Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon30.png using Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee12b6e903359273af56812054e9065e') in 0.026019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/OceanMap/Icons/Icon43.png
+  artifactKey: Guid(ba3b605110a3e374d98f7f107cd4d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon43.png using Guid(ba3b605110a3e374d98f7f107cd4d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93daf0bfd62c745fbd5ed4bfab2a4bb7') in 0.009987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon16.png
+  artifactKey: Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon16.png using Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a45cfaebeafc4c9d75a8a1369cd0e6') in 0.017968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OceanMap/Icons/Icon27.png
+  artifactKey: Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon27.png using Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3337ae53277d78894d31969c42814fa3') in 0.012634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560f6c1a277b9d1ab0de9396137f4b35') in 0.016591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/OceanMap/Icons/Icon47.png
+  artifactKey: Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon47.png using Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e0cc010b32f9f65b4c2d8c78955e6') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon48.png
+  artifactKey: Guid(826db7b92399b57468c7335b0da748a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon48.png using Guid(826db7b92399b57468c7335b0da748a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a08abf469cf3bbf98c2708de766c1b') in 0.016480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/OceanMap/Icons/Icon32.png
+  artifactKey: Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon32.png using Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e781a23a7e4d2b6a54c347ddf3cf8b4') in 0.009108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OceanMap/Icons/Icon21.png
+  artifactKey: Guid(a3b4f8ced38db2d49b74627e5d1745f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon21.png using Guid(a3b4f8ced38db2d49b74627e5d1745f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3873bc04128d7866f98b104e61c99dd6') in 0.013666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/OceanMap/Icons/Icon34.png
+  artifactKey: Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon34.png using Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dbe0e7397a534d1241f292b1637f34') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/OceanMap/Icons/Icon5.png
+  artifactKey: Guid(3e60bfb8d52e9cb489659785b6608b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon5.png using Guid(3e60bfb8d52e9cb489659785b6608b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e3d1af25f4842d7c163ab17008f0c') in 0.013384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon40.png
+  artifactKey: Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon40.png using Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12939a47bf3a7931211866cf408eb93b') in 0.017487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/OceanMap/Icons/Icon26.png
+  artifactKey: Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon26.png using Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f069711b6ad54eb1b970e098df8cc4d') in 0.010480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OceanMap/Icons/Icon45.png
+  artifactKey: Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon45.png using Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a745442041838138f67c7b786f72cd78') in 0.023076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OceanMap/Icons/Icon37.png
+  artifactKey: Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon37.png using Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cc85284114cbf376a78fcd0849c55b') in 0.010124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/OceanMap/Icons/Icon18.png
+  artifactKey: Guid(35d889ad626c4e74f93c07db4795565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon18.png using Guid(35d889ad626c4e74f93c07db4795565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafdbd6f396b133917ecf3242bb70e06') in 0.015202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OceanMap/Icons/Icon2.png
+  artifactKey: Guid(439562d28839d624c9a933137883bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon2.png using Guid(439562d28839d624c9a933137883bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd5b8baed1df834aaee835a125f564') in 0.008979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.829361 seconds.
+  path: Assets/OceanMap/Icons/Icon14.png
+  artifactKey: Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon14.png using Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5734f871fb3aff2994829222b44af') in 0.009182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035243 seconds.
+  path: Assets/OceanMap/Icons/Icon1.png
+  artifactKey: Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon1.png using Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76514ff85af68d0ede42973831e710a8') in 0.010908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/OceanMap/Icons/Icon25.png
+  artifactKey: Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon25.png using Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35314ec503879bb61bc2052fa0c70317') in 0.012758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OceanMap/Icons/Icon36.png
+  artifactKey: Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon36.png using Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc6c9bb26b08206c17e54ac4a91b26') in 0.010371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OceanMap/Icons/Icon31.png
+  artifactKey: Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon31.png using Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7da1f3fbc8439c33ab02e0427bf0cae') in 0.031291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OceanMap/Icons/Icon12.png
+  artifactKey: Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon12.png using Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da14617c8be658093f24d5fed101a48') in 0.017109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OceanMap/Icons/Icon28.png
+  artifactKey: Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon28.png using Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00006db59f8b9adb43bb8e0e4dc6b835') in 0.018890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon46.png
+  artifactKey: Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon46.png using Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08176623dcf6ce53209dcbf5c13c86d') in 0.014779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OceanMap/Icons/Icon27.png
+  artifactKey: Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon27.png using Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a5d0d67b978d0202de0bc7e252619c') in 0.019571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccf1fb8a90b7ff655074c5a281d966f') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon9.png
+  artifactKey: Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon9.png using Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0374357db5592200b17dc8dd40b537d3') in 0.009274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OceanMap/Icons/Icon32.png
+  artifactKey: Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon32.png using Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d76ccb16f30ac5ba4743a61d490fc5f') in 0.023933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OceanMap/Icons/Icon34.png
+  artifactKey: Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon34.png using Guid(eb2cdf58e59a8414c8f2433b371c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ca0568cf8d4bf7a8fbeb975fb090d4') in 0.011019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/OceanMap/Icons/Icon40.png
+  artifactKey: Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon40.png using Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcf971212edf37845e998373bf276d0') in 0.025000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon45.png
+  artifactKey: Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon45.png using Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873bd58c57d022d8dd80795359d2664c') in 0.008840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/OceanMap/Icons/Icon6.png
+  artifactKey: Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon6.png using Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed8c119badc66d5896e0c717281cc03') in 0.014631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OceanMap/Icons/Icon41.png
+  artifactKey: Guid(d8494c2b77bee994082bb658cc5bb836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon41.png using Guid(d8494c2b77bee994082bb658cc5bb836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e55a766616898b3e8743f822262615') in 0.016918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.255888 seconds.
+  path: Assets/OceanMap/Icons/Icon14.png
+  artifactKey: Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon14.png using Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f806a51e95dfbb5371a9c387dcd987e') in 0.038928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020195 seconds.
+  path: Assets/OceanMap/Icons/Icon1.png
+  artifactKey: Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon1.png using Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51a2822375c5995e847a737bac1c086') in 0.017976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OceanMap/Icons/Icon25.png
+  artifactKey: Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon25.png using Guid(aedd76b60007edb4ab80b0c50560e778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4fdfdc4849c2c95f133fc36b699b8d') in 0.021785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OceanMap/Icons/Icon20.png
+  artifactKey: Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon20.png using Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249230f1d0a3c003e58348b14b23d624') in 0.015794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon31.png
+  artifactKey: Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon31.png using Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00d66c4f1b6420a9ac9098d98b24e5e') in 0.028695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OceanMap/Icons/Icon12.png
+  artifactKey: Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon12.png using Guid(ab4dd10067bd39347bc30dab9a4420d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d2ed81f988df87621a04a876a4424') in 0.018775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OceanMap/Icons/Icon28.png
+  artifactKey: Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon28.png using Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16c58c11e343e30365d1b386deb2c7b') in 0.023582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/OceanMap/Icons/Icon46.png
+  artifactKey: Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon46.png using Guid(895e257d6d4cd53459a8c1881cafb34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52874e429660cc5b43a8fae4e4c6b854') in 0.028390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon16.png
+  artifactKey: Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon16.png using Guid(d679ad8c799f1fb45936950d41691627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39df22cf311f3259a9de503f96cab377') in 0.016590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/OceanMap/Icons/Icon8.png
+  artifactKey: Guid(67a5ae18052160648b30891d9185b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon8.png using Guid(67a5ae18052160648b30891d9185b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a968f30fc0377d8a104b494b180199c3') in 0.026212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/OceanMap/Icons/Icon47.png
+  artifactKey: Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon47.png using Guid(e9b1b6ed68b81ac45b4c12c010fa4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e202ecbc8f859ca9d44d3efb93208d9b') in 0.016878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon32.png
+  artifactKey: Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon32.png using Guid(38338e4abc454114eba9e26589730d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6091f3253ab6dab08a406ce278b1a643') in 0.020048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OceanMap/Icons/Icon22.png
+  artifactKey: Guid(36a1916cb5af5fd429877cd073032fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon22.png using Guid(36a1916cb5af5fd429877cd073032fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178c7764c36f2f844265262fcc312fa9') in 0.029745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OceanMap/Icons/Icon23.png
+  artifactKey: Guid(6d81f52d525ecf646ab918101b21f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon23.png using Guid(6d81f52d525ecf646ab918101b21f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba00632c9ef1a72c72a17f7b720881b') in 0.016595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon11.png
+  artifactKey: Guid(354155c89d4bb90489d98947380080ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon11.png using Guid(354155c89d4bb90489d98947380080ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f3dbe9cd7f97afa8a0895a43099c65') in 0.016780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/OceanMap/Icons/Icon45.png
+  artifactKey: Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon45.png using Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ed2cf143b66bb3f56077b227cb22ae') in 0.016453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OceanMap/Icons/Icon6.png
+  artifactKey: Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon6.png using Guid(5599642eb33546f4091380527a18fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c1653c5cdf86ed9e35cbf7cdbb5c90') in 0.015672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 2004ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (375ms)
+				TypeCache.ScanAssembly (359ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3686.
+Memory consumption went from 124.4 MB to 124.4 MB.
+Total: 10.249000 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 2.834700 ms MarkObjects: 6.936400 ms  DeleteObjects: 0.078900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.626675 seconds.
+  path: Assets/OceanMap/Scripts/RouleteAnmation.cs
+  artifactKey: Guid(931394a0d41381a47a8414c5cbfae479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Scripts/RouleteAnmation.cs using Guid(931394a0d41381a47a8414c5cbfae479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b89a2e43dffae6bf95c7e1084671be1') in 0.003420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.815 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 1775ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.8 KB). Loaded Objects now: 3687.
+Memory consumption went from 124.4 MB to 124.4 MB.
+Total: 5.940400 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.504700 ms MarkObjects: 4.970200 ms  DeleteObjects: 0.096200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 1780ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (981ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.8 KB). Loaded Objects now: 3688.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 6.294800 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.490000 ms MarkObjects: 5.322700 ms  DeleteObjects: 0.097900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.039 seconds
+Domain Reload Profiling: 1850ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1039ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.8 KB). Loaded Objects now: 3689.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 6.354300 ms (FindLiveObjects: 0.461900 ms CreateObjectMapping: 0.473900 ms MarkObjects: 5.333000 ms  DeleteObjects: 0.082900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.837 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 1808ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (563ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (321ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (974ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.8 KB). Loaded Objects now: 3690.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 7.116900 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.452800 ms MarkObjects: 6.164700 ms  DeleteObjects: 0.087300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.689 seconds
+Domain Reload Profiling: 7570ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (326ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (6690ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.7 KB). Loaded Objects now: 3691.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 4.956300 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.439000 ms MarkObjects: 4.108500 ms  DeleteObjects: 0.067300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (351ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (998ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.7 KB). Loaded Objects now: 3692.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 6.400100 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.426000 ms MarkObjects: 5.466400 ms  DeleteObjects: 0.082900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.806 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling: 1809ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (290ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3693.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 5.525500 ms (FindLiveObjects: 0.518800 ms CreateObjectMapping: 0.417900 ms MarkObjects: 4.476400 ms  DeleteObjects: 0.110200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1777ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (541ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (328ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.7 KB). Loaded Objects now: 3694.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 6.069300 ms (FindLiveObjects: 0.393300 ms CreateObjectMapping: 0.390800 ms MarkObjects: 5.202400 ms  DeleteObjects: 0.080700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.021 seconds
+Domain Reload Profiling: 1854ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3695.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 6.703500 ms (FindLiveObjects: 0.597000 ms CreateObjectMapping: 0.502800 ms MarkObjects: 5.513200 ms  DeleteObjects: 0.088800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 1802ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (988ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.7 KB). Loaded Objects now: 3696.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 5.314000 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.367700 ms MarkObjects: 4.487300 ms  DeleteObjects: 0.081400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 740.400076 seconds.
+  path: Assets/OceanMap/Images/Materials/woodtable 1.mat
+  artifactKey: Guid(ba14b035fcd7ac442a1ae5fe6b2f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Images/Materials/woodtable 1.mat using Guid(ba14b035fcd7ac442a1ae5fe6b2f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3749290a8a98027d7e6d4f79c893166') in 0.129774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180680 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efb58d7828ae97ab2436a9e2cf6e8e5') in 0.104834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.489674 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256db0646cd84f41508a0491dfddd058') in 0.031105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 428.251633 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b28f0e35be8db9d60d80ff4bb9cc3b') in 0.027039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 144.338462 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5965122b0686594ddbbda9c68a2cb4') in 0.021299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.275310 seconds.
+  path: Assets/OceanMap/Icons/Icon4.png
+  artifactKey: Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon4.png using Guid(3c30f99dfe07d584d8a4b92c232ad181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596666ba203ceac45b4a6b5f603af209') in 0.018971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 25.938622 seconds.
+  path: Assets/OceanMap/Icons/Icon1.png
+  artifactKey: Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon1.png using Guid(c2c6c0d0b67bbf0418347c23ea8738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977113c3e83d98834289dc22b22cb18') in 0.014053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023855 seconds.
+  path: Assets/OceanMap/Icons/Icon3.png
+  artifactKey: Guid(66ce53aead01be24597109cbef600d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon3.png using Guid(66ce53aead01be24597109cbef600d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a8e0172ce23a61d16f253cb81fcdf0') in 0.019735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OceanMap/Icons/Icon20.png
+  artifactKey: Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon20.png using Guid(88047f645e94a1846aee7011952463ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee6e99ff40d4002eac47341fe7bd61f') in 0.012316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon36.png
+  artifactKey: Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon36.png using Guid(5ee6ab509783594498f2ec06aa0eeeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f6c102459bb12416ce21f622636b11') in 0.014454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon31.png
+  artifactKey: Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon31.png using Guid(8bfd8a2af380e374fbb434e03317b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93d151e8c98c1dd15875f8383d29f2') in 0.017229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon39.png
+  artifactKey: Guid(50edaaee9bed7914cac3227ea1c6da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon39.png using Guid(50edaaee9bed7914cac3227ea1c6da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ca99edc67fc2d255433c4024857356') in 0.012595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon28.png
+  artifactKey: Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon28.png using Guid(b42e9db073a462f45bc05154ab882f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a07cc8f6d0fe09f1a79fb0910a2c53') in 0.014341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OceanMap/Icons/Icon30.png
+  artifactKey: Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon30.png using Guid(dd8b16b76c1b9794f93b7e50c44d2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894daeba172eecd62944b2dbce54b70') in 0.014601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OceanMap/Icons/Icon43.png
+  artifactKey: Guid(ba3b605110a3e374d98f7f107cd4d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon43.png using Guid(ba3b605110a3e374d98f7f107cd4d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077b346e128db0700c81b8d04ce845f') in 0.013290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OceanMap/Icons/Icon42.png
+  artifactKey: Guid(e60e282c886f0954f842fa12c3d363da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon42.png using Guid(e60e282c886f0954f842fa12c3d363da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff9066dbf31272880c4bc6d02a3d5f1') in 0.013318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OceanMap/Icons/Icon27.png
+  artifactKey: Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon27.png using Guid(c12af999e646cef4689a5c6384a86e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77b1acc6e4e9cb0937135a7bc615da9') in 0.014993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OceanMap/Icons/Icon17.png
+  artifactKey: Guid(72aa7d092ad5a1a46b3a7d9da013ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon17.png using Guid(72aa7d092ad5a1a46b3a7d9da013ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b120adbee9e536b2366c117fdb496a71') in 0.013956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon38.png
+  artifactKey: Guid(6c8802bb6e84d0f4895262e19b557720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon38.png using Guid(6c8802bb6e84d0f4895262e19b557720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bb488e4c115d96b178ccdd731da52c') in 0.010540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OceanMap/Icons/Icon9.png
+  artifactKey: Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon9.png using Guid(b293a56a6ef557e43ad9e1080e815321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64cabeba578b552b75d90b88a43fffe') in 0.013686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OceanMap/Icons/Icon10.png
+  artifactKey: Guid(a3146d3619c258143850fd7510fb40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon10.png using Guid(a3146d3619c258143850fd7510fb40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfca442e5691d1ea5d4c6cc5e476cc20') in 0.013312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OceanMap/Icons/Icon21.png
+  artifactKey: Guid(a3b4f8ced38db2d49b74627e5d1745f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon21.png using Guid(a3b4f8ced38db2d49b74627e5d1745f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3569596018a062a0c3d90b62d3c8471') in 0.013236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OceanMap/Icons/Icon23.png
+  artifactKey: Guid(6d81f52d525ecf646ab918101b21f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon23.png using Guid(6d81f52d525ecf646ab918101b21f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4132761e2fce5d6662eede4d0c290a') in 0.015318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon40.png
+  artifactKey: Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon40.png using Guid(0a62537bcff038f4897ed03ee8cf9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72df3eb1b079603b95d64451b482f62d') in 0.014784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon26.png
+  artifactKey: Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon26.png using Guid(bae2e28ed20d13c448fc5700a83f8249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3372b4539be4999f1f196db9dcbf6690') in 0.013084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/OceanMap/Icons/Icon45.png
+  artifactKey: Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon45.png using Guid(9618e590b1d146b4aaad0dc01d36f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6129fcd2b0207f951e16516913456a65') in 0.010833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OceanMap/Icons/Icon37.png
+  artifactKey: Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon37.png using Guid(7d10541613ed97f47a2d8c9b2cd2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9259a6cfe6f70c33f2284233b69c9d') in 0.012295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OceanMap/Icons/Icon14.png
+  artifactKey: Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon14.png using Guid(15d13fadb07011f45b24bc180fa9687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae4096e7b994b812716d68acce23076') in 0.013534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/OceanMap/Icons/Icon15.png
+  artifactKey: Guid(eaccfa57dc39b9541ac41d1a8aca5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanMap/Icons/Icon15.png using Guid(eaccfa57dc39b9541ac41d1a8aca5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b06bd38c0dc930af4143b2c67fdc0bd') in 0.013099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

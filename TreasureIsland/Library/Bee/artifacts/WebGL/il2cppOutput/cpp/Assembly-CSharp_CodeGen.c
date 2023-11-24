@@ -22,6 +22,18 @@ extern void ToggleCanvas_DisableCanvas_mF895F2DDA460315231BCB01B8515481150E95ABD
 extern void ToggleCanvas__ctor_mE6F305AD2CE2577DAFDA122BCC875ADC1001BCE4 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+extern void RouleteAnmation_Start_m0C954A9AF8F1400EF6639E0E43EDC1FBA05E727F (void);
+extern void RouleteAnmation_OnEnable_m5F10B720138487BE812CCD1BC9194E33653064B2 (void);
+extern void RouleteAnmation_DelayedStopAnimation_m619F03191783A4545A02F83DA4DD83AB1274E40C (void);
+extern void RouleteAnmation_Update_m9CF0F69B633AA031099AE81C2501D3E77638B6F2 (void);
+extern void RouleteAnmation_StopAnination_m9E077747FE6FB84631CCD26D1186911CB341CDBD (void);
+extern void RouleteAnmation__ctor_m3D69AD71140BCB3EA97D021C3ED279473B98065E (void);
+extern void U3CDelayedStopAnimationU3Ed__9__ctor_mCA6B82C8CED087920325512D449D9227D8CB886A (void);
+extern void U3CDelayedStopAnimationU3Ed__9_System_IDisposable_Dispose_m4EEA67B43228E6EFB2051FF7EBC8D056E726C199 (void);
+extern void U3CDelayedStopAnimationU3Ed__9_MoveNext_m568D5C5ED704CB6D68781148F2B9DCD6180E1254 (void);
+extern void U3CDelayedStopAnimationU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC865AC6A9C6EC1A8149621B71428F0566F69C7D (void);
+extern void U3CDelayedStopAnimationU3Ed__9_System_Collections_IEnumerator_Reset_mB9319801ADA537419EE0703267DF3D2398EE62E9 (void);
+extern void U3CDelayedStopAnimationU3Ed__9_System_Collections_IEnumerator_get_Current_mAF7B9BFD1C8EBF59D5AB4925956645FE16EB9CE8 (void);
 extern void LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9 (void);
 extern void LowPolyWater_Start_m84959C8452D29891A954FDA641CBC810F575F860 (void);
 extern void LowPolyWater_CreateMeshLowPoly_mD334974E007EE6B8204B866ED70BF3D8B99F735C (void);
@@ -29,7 +41,7 @@ extern void LowPolyWater_Update_mA0B0C1966279CC287BEB91A684AC4DF1D8B8EF54 (void)
 extern void LowPolyWater_GenerateWaves_m272208F2F0BD170DFCD36057697CE2777EF66972 (void);
 extern void LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18 (void);
 extern void LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611 (void);
-static Il2CppMethodPointer s_methodPointers[22] = 
+static Il2CppMethodPointer s_methodPointers[34] = 
 {
 	ShipController_Start_m67120F2E87F500D5A81B8766ECDD307BF4ABDC7A,
 	ShipController_Update_mBBB11654D21367FEFF0E25C5B639E1920963C51D,
@@ -46,6 +58,18 @@ static Il2CppMethodPointer s_methodPointers[22] =
 	ToggleCanvas__ctor_mE6F305AD2CE2577DAFDA122BCC875ADC1001BCE4,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+	RouleteAnmation_Start_m0C954A9AF8F1400EF6639E0E43EDC1FBA05E727F,
+	RouleteAnmation_OnEnable_m5F10B720138487BE812CCD1BC9194E33653064B2,
+	RouleteAnmation_DelayedStopAnimation_m619F03191783A4545A02F83DA4DD83AB1274E40C,
+	RouleteAnmation_Update_m9CF0F69B633AA031099AE81C2501D3E77638B6F2,
+	RouleteAnmation_StopAnination_m9E077747FE6FB84631CCD26D1186911CB341CDBD,
+	RouleteAnmation__ctor_m3D69AD71140BCB3EA97D021C3ED279473B98065E,
+	U3CDelayedStopAnimationU3Ed__9__ctor_mCA6B82C8CED087920325512D449D9227D8CB886A,
+	U3CDelayedStopAnimationU3Ed__9_System_IDisposable_Dispose_m4EEA67B43228E6EFB2051FF7EBC8D056E726C199,
+	U3CDelayedStopAnimationU3Ed__9_MoveNext_m568D5C5ED704CB6D68781148F2B9DCD6180E1254,
+	U3CDelayedStopAnimationU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC865AC6A9C6EC1A8149621B71428F0566F69C7D,
+	U3CDelayedStopAnimationU3Ed__9_System_Collections_IEnumerator_Reset_mB9319801ADA537419EE0703267DF3D2398EE62E9,
+	U3CDelayedStopAnimationU3Ed__9_System_Collections_IEnumerator_get_Current_mAF7B9BFD1C8EBF59D5AB4925956645FE16EB9CE8,
 	LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9,
 	LowPolyWater_Start_m84959C8452D29891A954FDA641CBC810F575F860,
 	LowPolyWater_CreateMeshLowPoly_mD334974E007EE6B8204B866ED70BF3D8B99F735C,
@@ -54,7 +78,7 @@ static Il2CppMethodPointer s_methodPointers[22] =
 	LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18,
 	LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611,
 };
-static const int32_t s_InvokerIndices[22] = 
+static const int32_t s_InvokerIndices[34] = 
 {
 	4462,
 	4462,
@@ -73,6 +97,18 @@ static const int32_t s_InvokerIndices[22] =
 	4462,
 	4462,
 	4462,
+	4365,
+	4462,
+	3601,
+	4462,
+	3601,
+	4462,
+	4284,
+	4365,
+	4462,
+	4365,
+	4462,
+	4462,
 	3173,
 	4462,
 	4462,
@@ -83,7 +119,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	22,
+	34,
 	s_methodPointers,
 	0,
 	NULL,

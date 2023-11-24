@@ -349,6 +349,7 @@
 "Assets/OceanMap/Scripts/FpsControl.cs"
 "Assets/OceanMap/Scripts/IslandButton.cs"
 "Assets/OceanMap/Scripts/LowPolyWater.cs"
+"Assets/OceanMap/Scripts/RouleteAnmation.cs"
 -langversion:9.0
 
 /deterministic

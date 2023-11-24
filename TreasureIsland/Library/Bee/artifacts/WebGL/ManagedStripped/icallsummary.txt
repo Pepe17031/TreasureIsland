@@ -435,6 +435,7 @@ UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
+UnityEngine.Random::RandomRangeInt
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
 UnityEngine.RectOffset::get_left
@@ -521,6 +522,7 @@ UnityEngine.Sprite::get_associatedAlphaSplitTexture_Injected
 UnityEngine.Sprite::get_texture_Injected
 UnityEngine.Sprite::get_uv_Injected
 UnityEngine.Sprite::get_vertices_Injected
+UnityEngine.SpriteRenderer::set_sprite_Injected
 UnityEngine.SystemInfo::IsFormatSupported
 UnityEngine.SystemInfo::SupportsTextureFormatNative
 UnityEngine.SystemInfo::GetMaxRenderTextureSize

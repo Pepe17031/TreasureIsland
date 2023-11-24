@@ -2,6 +2,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Floater" preserve="nothing"/>
 		<type fullname="FPSCapper" preserve="nothing"/>
+		<type fullname="GoraTales.RouleteAnmation" preserve="nothing"/>
 		<type fullname="LowPolyWater.LowPolyWater" preserve="nothing"/>
 		<type fullname="ShipController" preserve="nothing"/>
 		<type fullname="ToggleCanvas" preserve="nothing"/>
@@ -48,6 +49,7 @@
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>

@@ -374,7 +374,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
