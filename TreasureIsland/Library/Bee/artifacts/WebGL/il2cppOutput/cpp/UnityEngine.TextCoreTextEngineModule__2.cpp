@@ -27237,6 +27237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator__ctor_m52E4D01DC28BDF753BF
 		Dictionary_2__ctor_m712893C2C48C47CCAFAD85A865C702E8D3D2B71F(L_43, Dictionary_2__ctor_m712893C2C48C47CCAFAD85A865C702E8D3D2B71F_RuntimeMethod_var);
 		__this->___m_MaterialReferenceIndexLookup = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialReferenceIndexLookup), (void*)L_43);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}

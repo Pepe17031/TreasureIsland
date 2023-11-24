@@ -8033,6 +8033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewState__ctor_mB03095327D194F99640247A
 		List_1__ctor_mB26899986F1FB5766A6D13F9ED0BD83D6E7EF66C(L_1, List_1__ctor_mB26899986F1FB5766A6D13F9ED0BD83D6E7EF66C_RuntimeMethod_var);
 		__this->___m_OrderedColumnStates = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OrderedColumnStates), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -8148,6 +8149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColumnData_set_resizeHandle_m208608154A3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColumnData__ctor_mED0C10F0B698DCD07135057BD1543A8EB7819EE3 (ColumnData_t0AB07CB43923527FF3700146C0F98D09B673492A* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -8215,6 +8217,7 @@ IL2CPP_EXTERN_C  void SortedColumnState__ctor_mBEFBA6B11E09B0FE2E463DB1B7DA53430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass59_0__ctor_m9E1868E6952D2497565DF1703DD07FEC80F78534 (U3CU3Ec__DisplayClass59_0_tD6B8CFFF2A613777D4DEF3FD75860E98B656357F* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -8339,6 +8342,7 @@ IL_006b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass65_0__ctor_m8719170375E57A746D5E869E3512B89B2F9F398A (U3CU3Ec__DisplayClass65_0_t1C4B9F563EB6D660E2158961ADBED9A2B1CA261B* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}

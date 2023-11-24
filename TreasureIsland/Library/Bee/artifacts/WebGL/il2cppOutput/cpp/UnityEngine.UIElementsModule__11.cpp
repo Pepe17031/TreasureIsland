@@ -5621,6 +5621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseElementBuilder_InvokeGenerateVisualC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseElementBuilder__ctor_m7D5319BA8CC50A5DB218FA57B5C7641D7368764C (BaseElementBuilder_t7AD7947872717E2F4C56F8A02A656F63A563DAFE* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -7379,6 +7380,7 @@ IL_0046:
 		TextureSlotManager__ctor_mEBC84CCC93A32AAAF79D89198EE985B002C5C794(L_12, NULL);
 		__this->___m_TextureSlotManager = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextureSlotManager), (void*)L_12);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		bool L_13 = ___2_mockDevice;
 		__this->___m_MockDevice = L_13;
@@ -12318,6 +12320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7609878CD1E5C5A097E06BF7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m51C86170A6E15FD67E6A4C2CCA63D56F7EC231F3 (U3CU3Ec_tDA9CB20CD341498E664D2FFD3DB25C9328DE72CA* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -12499,6 +12502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestFitAllocator__ctor_m7DF0BF6C825993EC
 		BlockPool__ctor_m6692A8FE6D052C519D3C60E69427BCD3FBED3F6A(L_0, NULL);
 		__this->___m_BlockPool = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BlockPool), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		uint32_t L_1 = ___0_size;
 		__this->___U3CtotalSizeU3Ek__BackingField = L_1;
@@ -13445,6 +13449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBufferAllocator__ctor_m989E13DFCA8CAA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		uint32_t L_0 = ___0_maxSize;
 		BestFitAllocator_t92B43D0CAA763D9109779450069EBB389A57ECC7* L_1 = (BestFitAllocator_t92B43D0CAA763D9109779450069EBB389A57ECC7*)il2cpp_codegen_object_new(BestFitAllocator_t92B43D0CAA763D9109779450069EBB389A57ECC7_il2cpp_TypeInfo_var);
@@ -13681,6 +13686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Page__ctor_m0EE03510D8F3E0B9679AD16D3D68
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		uint32_t L_0 = ___0_vertexMaxCount;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -13935,6 +13941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DrawParams__ctor_mB32E5A17EE38E8D728A265
 		List_1__ctor_m05332107DA4D8C8D747D79BDFC45DBE8FCEF8C23(L_3, 8, List_1__ctor_m05332107DA4D8C8D747D79BDFC45DBE8FCEF8C23_RuntimeMethod_var);
 		__this->___defaultMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___defaultMaterial), (void*)L_3);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -15338,6 +15345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EntryPreProcessor__ctor_mC9F66325C7C577C
 		Stack_1__ctor_m926E7695A4304CE6339322C2C24794FAEF8F3BC6(L_3, 1, Stack_1__ctor_m926E7695A4304CE6339322C2C24794FAEF8F3BC6_RuntimeMethod_var);
 		__this->___m_Mask = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Mask), (void*)L_3);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -17894,6 +17902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EntryProcessor__ctor_mF4859708661D54B2D4
 		Stack_1__ctor_mD407A708B955AD8874E4D824A2BF9D920C56E5F6(L_1, 1, Stack_1__ctor_mD407A708B955AD8874E4D824A2BF9D920C56E5F6_RuntimeMethod_var);
 		__this->___m_MaskMeshes = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMeshes), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -17955,6 +17964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m9AEC7004B511418E929FE602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m6FB5F3D2EBBF7A50385B67ECC6F730B45E7E21CE (U3CU3Ec_t97CA8893E201AFA6EC8E3C99F6ECB7F83E8FD172* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -17986,6 +17996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CInitU3Eb__52_1_m04A6D986A4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m2EF86B00D2AEDE80147617D0499E5C6768ED23AC (Entry_t475ED76E31923970E7F7A6522E570E7577C487B9* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -18007,6 +18018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EntryRecorder__ctor_m6EA75ADD478DDB33D72
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		EntryPool_tA3C5BA5AF7ABD15DF12312C1C7F232CD705F3951* L_0 = ___0_entryPool;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -18805,6 +18817,7 @@ IL_002a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GradientSettingsAtlas__ctor_mCBA2EBBB6F83CBD06087C124728B980D0D5ACF52 (GradientSettingsAtlas_t086C45D0F3B8F47571912544D8B6DEC6E8EC8C1A* __this, int32_t ___0_length, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_length;
 		__this->___m_Length = L_0;
@@ -20054,6 +20067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobManager__ctor_m2F8A9BE9B05CC7C7AB21E7
 		JobMerger__ctor_m434D3B31FF11BBABEDE8917E188DC2B10BF51496(L_3, ((int32_t)128), NULL);
 		__this->___m_JobMerger = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_JobMerger), (void*)L_3);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -20100,6 +20114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobMerger__ctor_m434D3B31FF11BBABEDE8917
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_capacity;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -20327,6 +20342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshGenerator__ctor_mAAD2B9D3F189F06D788
 		TextInfo__ctor_m0D2430C2058B0D6B9C7F21C2E62A4A8D6CA5ED8F(L_0, 1, NULL);
 		__this->___m_TextInfo = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextInfo), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_1 = ___0_mgc;
 		__this->___m_MeshGenerationContext = L_1;

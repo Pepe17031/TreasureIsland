@@ -21773,6 +21773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mB573914AF69E3E8EEF5970C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3E829CFC54AD889A3B37034531571CE42A9EFC35 (U3CU3Ec_tAF903F1E622C11E0BEC934E7957F69207E6E713B* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -24214,6 +24215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AncestorFilter__ctor_mE5618717A15B2B3057
 		Stack_1__ctor_m141F1BE46354DA6AD95BD4791941D8BB59594DCA(L_0, ((int32_t)100), Stack_1__ctor_m141F1BE46354DA6AD95BD4791941D8BB59594DCA_RuntimeMethod_var);
 		__this->___m_HashStack = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HashStack), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -25098,6 +25100,7 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CursorManager__ctor_m0C261D3042AEA84E2A15EEC13154380AC4E0FAE9 (CursorManager_tB28ED880450C37A0831769315A14D246F5A2E060* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -27741,6 +27744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultEventSystem__ctor_mE1A8628F25A1C8
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_LastMousePosition = L_1;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -28006,6 +28010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_get_doubleClickTime_m2CEA842F8BBD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input__ctor_m6AE46A7BCD3B54C2414C3833B0C7F97D5A98BB15 (Input_tC023700B4164019B29E6EFE6F9E6E5DEF0BAF0BA* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -28117,6 +28122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NoInput_get_doubleClickTime_m0B37716E37
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoInput__ctor_m353404ADAFE8F6A140AAEDD1E590B4945746E860 (NoInput_tB2381D0103606E3984C911BDF45F12083435A21D* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -28148,6 +28154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B5CD12B8250BCF52CB8B003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m21942ED6AC75C484BB05C834486396E5CC4F81F0 (U3CU3Ec_t37452B9A7BBD76C55B8348F6EF87C026C961EDC9* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -28557,7 +28564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisposeHelper_NotifyDisposedUsed_m7A9C98
 		Type_t* L_1;
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD81452C86BFC4304CE462191543453B5531C824C, L_2, _stringLiteralDF044C7EBE7E45C9572204BF0DEA5DFD05D06253, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -28595,6 +28602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseReorderableDragAndDropController__ct
 		__this->___m_SortedSelectedIds = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SortedSelectedIds), (void*)L_0);
 		__this->___U3CenableReorderingU3Ek__BackingField = (bool)1;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_1 = ___0_view;
 		__this->___m_View = L_1;
@@ -29030,7 +29038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultDragAndDropClient_GetGe
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->___m_GenericData;
 		String_t* L_1 = ___0_key;
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(16, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(27, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0012;
@@ -29046,7 +29054,7 @@ IL_0012:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_3 = __this->___m_GenericData;
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(18, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_3, L_4);
 		G_B3_0 = L_5;
 	}
 
@@ -29115,7 +29123,7 @@ IL_0021:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_5;
 		L_5 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline((&___0_args), NULL);
 		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(20, L_5);
+		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31, L_5);
 		V_3 = L_6;
 	}
 	{
@@ -29161,7 +29169,7 @@ IL_003e_1:
 				L_13 = DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_inline((&V_4), NULL);
 				RuntimeObject* L_14;
 				L_14 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_4), NULL);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(19, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, il2cpp_defaults.string_class)), L_14);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, il2cpp_defaults.string_class)), L_14);
 			}
 
 IL_006c_1:
@@ -29382,7 +29390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultDragAndDropClient_DragCleanup_mB9
 
 IL_0014:
 	{
-		VirtualActionInvoker0::Invoke(14, G_B2_0);
+		VirtualActionInvoker0::Invoke(24, G_B2_0);
 	}
 
 IL_001a:
@@ -29535,6 +29543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DragEventsProcessor__ctor_mF74E4E1AE6314
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_0 = ___0_target;
 		__this->___m_Target = L_0;

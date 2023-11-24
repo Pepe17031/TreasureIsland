@@ -6419,6 +6419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutManager__ctor_mA8698EB86C34761C29C
 	memset((&V_2), 0, sizeof(V_2));
 	{
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		__this->___m_SyncRoot = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SyncRoot), (void*)L_0);
@@ -7254,6 +7255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m8DA68045D202B40F8724EBF8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m0E6FE6D277D802DCA4AB1F69E08F1BAA3511D372 (U3CU3Ec_tDBFE71D6EC602D8DC998B6BD0D1AD43FA4297E9A* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -13766,6 +13768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutProcessorNative__ctor_m3884CF97C22
 		LayoutState_t8B0A6E7C91052C03279882FE8495C4F96C4983E7 L_0;
 		L_0 = LayoutState_get_Default_m68C4325DC936858EC390569B3233797508A962BE(NULL);
 		__this->___m_State = L_0;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -13859,6 +13862,7 @@ IL_0040:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HierarchyTraversal__ctor_mF2481C9E4D9E8BE3AA9A6097A39E300A7C2C6659 (HierarchyTraversal_t89B1D4664C1C066FEED9B372488A3F751CB6FE7D* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}

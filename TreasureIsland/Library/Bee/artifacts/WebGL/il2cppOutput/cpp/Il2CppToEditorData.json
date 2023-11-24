@@ -1,0 +1,9 @@
+{
+  "Messages": [
+    {
+      "Type": 1,
+      "Text": "IL2CPP error for method \u0027System.Void System.Threading.\u003C\u003E_GenericWrapper::.ctor(System.Action\u00601\u003CT\u003E)\u0027 in assembly \u0027C:\\Users\\pepe1\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TreasureIsland\\TreasureIsland\\Library\\Bee\\artifacts\\WebGL\\ManagedStripped\\mscorlib.dll\u0027\nSystem.InvalidOperationException: Attempting to return from void method \u0027System.Void System.Threading.\u003C\u003E_GenericWrapper::.ctor(System.Action\u00601\u003CT\u003E)\u0027 when there are values on the stack. Is this invalid IL code?\r\n   at Unity.IL2CPP.MethodBodyWriter.WriteReturnStatement() \u002B 0x4ea\r\n   at Unity.IL2CPP.MethodBodyWriter.ProcessInstruction(Node, InstructionBlock, ResolvedInstruction) \u002B 0x7e7\r\n   at Unity.IL2CPP.MethodBodyWriter.GenerateCodeRecursive(Node, ReadOnlyDictionary\u00602) \u002B 0x687\r\n   at Unity.IL2CPP.MethodBodyWriter.Generate() \u002B 0x666\r\n   at Unity.IL2CPP.CodeWriters.CodeWriterExtensions.WriteMethodWithMetadataInitialization(IGeneratedMethodCodeWriter, String, Action\u00602, String, MethodReference, WritingMethodFor) \u002B 0x2ef\r\n   at Unity.IL2CPP.MethodWriter.WriteMethodDefinition(AssemblyWriteContext, IGeneratedMethodCodeWriter, MethodReference) \u002B 0x348\r\n   at Unity.IL2CPP.SourceWriter.WriteTypesMethods(SourceWritingContext, IGeneratedMethodCodeWriter, TypeWritingInformation\u0026, NPath, Boolean) \u002B 0x58c\r\n   at Unity.IL2CPP.SourceWriters.SourceWriterBase\u00602.WriteItem(StreamWorkItemData\u00602) \u002B 0x1fc\r\n   at Unity.IL2CPP.Contexts.Scheduling.Streams.FileLevelParallelStreamManager\u00603.WorkerWriteItemsToFile(WorkItemData\u00602 data) \u002B 0x1ed\r\n   at Unity.IL2CPP.Contexts.Scheduling.PhaseWorkScheduler\u00601.WorkerLoop(Object data) \u002B 0x60e"
+    }
+  ],
+  "CommandLine": "@Library\\Bee\\artifacts\\rsp\\8585965801447016383.rsp"
+}

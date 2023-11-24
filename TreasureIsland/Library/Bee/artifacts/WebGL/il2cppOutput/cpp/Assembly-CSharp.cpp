@@ -1300,6 +1300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -1512,6 +1513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RouleteAnmation__ctor_m3D69AD71140BCB3EA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedStopAnimationU3Ed__9__ctor_mCA6B82C8CED087920325512D449D9227D8CB886A (U3CDelayedStopAnimationU3Ed__9_t9141A70CE028A7836D8B5A6E8D6210F27D8A96AF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state = L_0;

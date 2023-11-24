@@ -5955,6 +5955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Column__ctor_mA22B4F6620C6FCF2FF9BD3A7EE
 		__this->___m_Sortable = (bool)1;
 		__this->___m_Optional = (bool)1;
 		__this->___m_Resizable = (bool)1;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -6278,6 +6279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColumnLayout__ctor_mFFDC40700CADE77B39B6
 		List_1__ctor_mC12FD03E8FBB2F27B51524C7D291AF3898F3BD52(L_3, List_1__ctor_mC12FD03E8FBB2F27B51524C7D291AF3898F3BD52_RuntimeMethod_var);
 		__this->___m_DragFixedColumns = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DragFixedColumns), (void*)L_3);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		Columns_t487EAF3B634F6D919D58F1927099A8883964831B* L_4 = ___0_columns;
 		__this->___m_Columns = L_4;
@@ -9623,6 +9625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m2AB5B54EE176383F740A2084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC21A757E8F8FF62F4A50EA4B9CE211CF244A14ED (U3CU3Ec_t11C094C1DA0207BB450262A066307E93C418B789* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -9782,6 +9785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CStretchResizeColumnsU3Eb__
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_0__ctor_m665DF62769E5038523D1D31FB14EC9EC3BFD264F (U3CU3Ec__DisplayClass42_0_tF923C1AA43FCD843371470F76E83931B36D4C375* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -9809,6 +9813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_0_U3CStretchResi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_1__ctor_m9DD15D596506BFF4EC91E4C67954DBFB2708CB74 (U3CU3Ec__DisplayClass42_1_t8E2A4B5F5C85B0CF7753D69701D80472A5CFE022* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -9836,6 +9841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_1_U3CStretchResi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_2__ctor_m47C6D2B91AD0B9F4BBC40388D1E228DDEC802442 (U3CU3Ec__DisplayClass42_2_t3AD2447E19475CD8C31A89D960ECAA35AB075879* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -9863,6 +9869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_2_U3CStretchResi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_3__ctor_mE11FE3B11B61A419343CF1ECBD045BEC8DB06412 (U3CU3Ec__DisplayClass42_3_tA147E03D1D91EC3BC499D46E1C093CD3918C1CDD* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11719,6 +11726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Columns__ctor_mE41E3859EBB487EB15E5E19A7
 		__this->___m_StretchMode = 1;
 		__this->___m_Reorderable = (bool)1;
 		__this->___m_Resizable = (bool)1;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11771,6 +11779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mD486EB20183A757D8FD1062B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m16632BD95B26545AAF2E51BA592EDF5A957C7D27 (U3CU3Ec_t173F24214AA0EC31CD068E3F77FC5242112A19DB* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11993,6 +12002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiColumnController__ctor_m5ADA6B6D03D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		Columns_t487EAF3B634F6D919D58F1927099A8883964831B* L_0 = ___0_columns;
 		SortColumnDescriptions_tDC3FDF948D96F26E0BCB2C971C6EDA1E02BAB1EA* L_1 = ___1_sortDescriptions;
@@ -14400,6 +14410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortColumnDescription__ctor_m508182E0870
 {
 	{
 		__this->___m_ColumnIndex = (-1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -14408,6 +14419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortColumnDescription__ctor_m59FD47F4249
 {
 	{
 		__this->___m_ColumnIndex = (-1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_columnIndex;
 		SortColumnDescription_set_columnIndex_mE97DBC2A3860E2B205015EC7B28F5DDBBCEA12A6(__this, L_0, NULL);
@@ -14420,6 +14432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortColumnDescription__ctor_m4CDF60FC2C3
 {
 	{
 		__this->___m_ColumnIndex = (-1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		String_t* L_0 = ___0_columnName;
 		SortColumnDescription_set_columnName_m48380A906B8355D6F3F18203B9696DA415909103(__this, L_0, NULL);
@@ -14914,6 +14927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortColumnDescriptions__ctor_mFD236767DD
 		List_1__ctor_m5B04FE62C17C8E645804236DE55D4821E3C43558(L_0, List_1__ctor_m5B04FE62C17C8E645804236DE55D4821E3C43558_RuntimeMethod_var);
 		__this->___m_Descriptions = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Descriptions), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -17273,6 +17287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UxmlTraits__ctor_m887D965A333D64746483A3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_choicesU3Ed__8__ctor_m6C645C288B255F0A19F759741D97B70564F0548D (U3Cget_choicesU3Ed__8_t10800D6FA5D13047F92AF0500CCE4E6F3372E509* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state = L_0;

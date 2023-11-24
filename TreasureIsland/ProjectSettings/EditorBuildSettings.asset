@@ -4,5 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/web3.unity SDK Web3Auth/2.5.2/Web3.Unity Web3Auth Samples/Scenes/SampleLogin
+      - Web3Auth.unity
+    guid: a8a8b501e594874448546e904e2437c5
+  - enabled: 0
+    path: Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples/Scenes/SampleLogin.unity
+    guid: 1c1af5c5662d105498b2412267dde0df
+  - enabled: 0
+    path: Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples/Scenes/SampleMain.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

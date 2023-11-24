@@ -4039,6 +4039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7C1EFF89409588A65507FDF01648D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m7B536875EDB6C17E12CAC10ADC0C0D4E57F9112A (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDF32BA2AA355479EB2F529FFA37873A49376C427* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -4224,6 +4225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationTriggers__ctor_mDF3C8571BACB06D
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SelectedTrigger), (void*)_stringLiteralF449ECB799492B6E94508C177821573A9593DCDE);
 		__this->___m_DisabledTrigger = _stringLiteral8A45D0D8311C8D73121FDD6C8B401E1AD3C58E0E;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DisabledTrigger), (void*)_stringLiteral8A45D0D8311C8D73121FDD6C8B401E1AD3C58E0E);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -4408,6 +4410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonClickedEvent__ctor_m2B38CD66BDA4E6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnFinishSubmitU3Ed__9__ctor_m52988E24A7D4CE00B0F8A0F60A6EC20166027553 (U3COnFinishSubmitU3Ed__9_t55620C8613B09E9D27E197A064B9C249B6F13164* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state = L_0;
@@ -4566,6 +4569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasUpdateRegistry__ctor_m2265E2D6AE72
 		IndexedSet_1__ctor_m592958671DA80E88A4CDFCD15D5292F1E7D83A1E(L_7, IndexedSet_1__ctor_m592958671DA80E88A4CDFCD15D5292F1E7D83A1E_RuntimeMethod_var);
 		__this->___m_GraphicRebuildQueue = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GraphicRebuildQueue), (void*)L_7);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* L_8 = (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC*)il2cpp_codegen_object_new(WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC_il2cpp_TypeInfo_var);
 		WillRenderCanvases__ctor_mD8174C0964F8864D65270FFCAF275BD0BAC8DCF3(L_8, __this, (intptr_t)((void*)CanvasUpdateRegistry_PerformUpdate_mA5CAEDD4452E5C8B58B688C08BC491AC2DAFD51A_RuntimeMethod_var), NULL);
@@ -6018,6 +6022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperRegistry__ctor_m664370B6F6A286466
 		IndexedSet_1__ctor_m5BD1656DD135AE195E0A8F79375C692922E4FBB1(L_0, IndexedSet_1__ctor_m5BD1656DD135AE195E0A8F79375C692922E4FBB1_RuntimeMethod_var);
 		__this->___m_Clippers = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Clippers), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -6525,6 +6530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectangularVertexClipper__ctor_m159190C7
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
 		__this->___m_CanvasCorners = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CanvasCorners), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -8571,6 +8577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultRuntimeFactory__ctor_m5467830A8AA017398C392E147A4582857EFD0710 (DefaultRuntimeFactory_t6EF39512588EE0F868F56603A728A1C4158A9CF2* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11461,6 +11468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData_set_image_mE503B098325797C5AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m6321993E5D83F3A7E52ADC14C9276508D1129166 (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11468,6 +11476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m6321993E5D83F3A7E52ADC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m0BB22D3B9A2443D8D51CE88AD6B4DAEAF11B59E6 (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		String_t* L_0 = ___0_text;
 		OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E_inline(__this, L_0, NULL);
@@ -11477,6 +11486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m0BB22D3B9A2443D8D51CE8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m59495D34418035A84F4985F134B7557294689252 (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_image, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_image;
 		OptionData_set_image_mE503B098325797C5AA91F3BD71A182CAFF878C9D_inline(__this, L_0, NULL);
@@ -11486,6 +11496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_m59495D34418035A84F4985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData__ctor_mFF7263F2503D3F2D1E395450A62CAAB48CA9AFDE (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, String_t* ___0_text, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___1_image, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		String_t* L_0 = ___0_text;
 		OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E_inline(__this, L_0, NULL);
@@ -11528,6 +11539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionDataList__ctor_mEDE3FBBEC8C69BAB71
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_0 = (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*)il2cpp_codegen_object_new(List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_il2cpp_TypeInfo_var);
 		List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B(L_0, List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B_RuntimeMethod_var);
@@ -11567,6 +11579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DropdownEvent__ctor_m40067CAE88519F3B3B9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0__ctor_mA6669AA99E56F2DEE6C1E1ECB173C7BE4DE1CD64 (U3CU3Ec__DisplayClass63_0_t87E8A3DD05AC989E8B75152E64FA81EF83F68E6B* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -11593,6 +11606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CShowU3Eb__0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedDestroyDropdownListU3Ed__75__ctor_m80FA88C604962EB1BCF0453E39809E4AD856564F (U3CDelayedDestroyDropdownListU3Ed__75_t9E5C1F25056F3E4B8197F0E5F959ADD7A43EC17F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state = L_0;
@@ -11933,6 +11947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FontData_UnityEngine_ISerializationCallb
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FontData__ctor_m90225BC9FF97C82F911B775CD3EB54B0C95839C8 (FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -15911,6 +15926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m6A476FFBD4558E7BA60882D6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA1FCF997C2A1BC3278AFD9072B0CA4C4273F8F39 (U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC* __this, const RuntimeMethod* method) 
 {
 	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -15964,6 +15980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphicRegistry__ctor_m26893FC7AC6ED439C
 		Dictionary_2__ctor_m15571DC5C9C177706455D1DD83C9FB1688C8E4B6(L_1, Dictionary_2__ctor_m15571DC5C9C177706455D1DD83C9FB1688C8E4B6_RuntimeMethod_var);
 		__this->___m_RaycastableGraphics = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RaycastableGraphics), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.object_class);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		Dictionary_2_tB2701DE9C3598B8C1F149CB38C05E7BDAD455ED1* L_2 = (Dictionary_2_tB2701DE9C3598B8C1F149CB38C05E7BDAD455ED1*)il2cpp_codegen_object_new(Dictionary_2_tB2701DE9C3598B8C1F149CB38C05E7BDAD455ED1_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mAC340B0F95E5F838F50DF84EE1C9040456F46528(L_2, Dictionary_2__ctor_mAC340B0F95E5F838F50DF84EE1C9040456F46528_RuntimeMethod_var);
