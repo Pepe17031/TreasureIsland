@@ -2,6 +2,35 @@
   "report": {
     "modules": [
       {
+        "name": "Animation",
+        "dependencies": [
+          {
+            "name": "Animator",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AnimatorController",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "AnimatorOverrideController",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "RuntimeAnimatorController",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Audio",
         "dependencies": [
           {
@@ -265,7 +294,9 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [],
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -322,8 +353,16 @@
             "icon": null
           },
           {
-            "name": "Sprite",
+            "name": "SortingGroup",
             "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Sprite",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -383,17 +422,27 @@
           },
           {
             "name": "Transform",
-            "scenes": [
-              "Assets/OceanMap/Scenes/OceanMap.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Animation Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.animation"
           },
           {
             "name": "Required by Audio Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.audio"
+          },
+          {
+            "name": "Required by IMGUI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.imgui"
           },
           {
             "name": "Required by InputLegacy Module",
@@ -414,10 +463,46 @@
             "icon": "package/com.unity.modules.physics"
           },
           {
+            "name": "Required by Properties Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.properties"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by TextCoreFontEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcorefontengine"
+          },
+          {
+            "name": "Required by TextCoreTextEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcoretextengine"
+          },
+          {
+            "name": "Required by TextRendering Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by UI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ui"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
           },
           {
             "name": "Required by WebGL Module",
@@ -428,8 +513,32 @@
         ]
       },
       {
+        "name": "IMGUI",
+        "dependencies": [
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
         "name": "InputLegacy",
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "Required by IMGUI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.imgui"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
       },
       {
         "name": "JSONSerialize",
@@ -439,6 +548,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
           }
         ]
       },
@@ -500,6 +615,17 @@
         ]
       },
       {
+        "name": "Properties",
+        "dependencies": [
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
         "name": "RuntimeInitializeOnLoadManagerInitializer",
         "dependencies": [
           {
@@ -514,6 +640,12 @@
         "name": "SharedInternals",
         "dependencies": [
           {
+            "name": "Required by Animation Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.animation"
+          },
+          {
             "name": "Required by Audio Module",
             "scenes": [],
             "dependencyType": 2,
@@ -524,6 +656,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.core"
+          },
+          {
+            "name": "Required by IMGUI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.imgui"
           },
           {
             "name": "Required by InputLegacy Module",
@@ -544,10 +682,46 @@
             "icon": "package/com.unity.modules.physics"
           },
           {
+            "name": "Required by Properties Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.properties"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by TextCoreFontEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcorefontengine"
+          },
+          {
+            "name": "Required by TextCoreTextEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcoretextengine"
+          },
+          {
+            "name": "Required by TextRendering Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by UI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ui"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
           },
           {
             "name": "Required by WebGL Module",
@@ -556,6 +730,120 @@
             "icon": "package/com.unity.modules.webgl"
           }
         ]
+      },
+      {
+        "name": "TextCoreFontEngine",
+        "dependencies": [
+          {
+            "name": "Required by TextCoreTextEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcoretextengine"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
+        "name": "TextCoreTextEngine",
+        "dependencies": [
+          {
+            "name": "Required by IMGUI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.imgui"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
+        "name": "TextRendering",
+        "dependencies": [
+          {
+            "name": "Font",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by IMGUI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.imgui"
+          },
+          {
+            "name": "Required by TextCoreFontEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcorefontengine"
+          },
+          {
+            "name": "Required by TextCoreTextEngine Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.textcoretextengine"
+          },
+          {
+            "name": "Required by UI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ui"
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
+        "name": "UI",
+        "dependencies": [
+          {
+            "name": "Canvas",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CanvasGroup",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CanvasRenderer",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by UIElements Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
+        "name": "UIElements",
+        "dependencies": []
       },
       {
         "name": "WebGL",

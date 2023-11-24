@@ -346,6 +346,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/OceanMap/Scripts/BoatControler.cs"
 "Assets/OceanMap/Scripts/Floater.cs"
+"Assets/OceanMap/Scripts/FpsControl.cs"
 "Assets/OceanMap/Scripts/IslandButton.cs"
 "Assets/OceanMap/Scripts/LowPolyWater.cs"
 -langversion:9.0

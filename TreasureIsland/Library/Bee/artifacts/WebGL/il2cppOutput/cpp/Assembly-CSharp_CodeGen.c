@@ -14,6 +14,12 @@ extern void Floater_Start_mC2E2936E18599D6ECACA9B3DBD262B70DD8C1D44 (void);
 extern void Floater_FixedUpdate_mF9681473BAA4989FD58F5FF84E31F50927AED083 (void);
 extern void Floater_HandleWaterInteraction_mF66E9844DC67A070345925F839437F3B4B1F0689 (void);
 extern void Floater__ctor_mF3A7942EBC5B74ACA791D334E8BBFA14F8F7D5BE (void);
+extern void FPSCapper_Awake_m1DF765397A03B48EFEDBA2AF1BD10572F78CE2BB (void);
+extern void FPSCapper__ctor_m3D3AE1EA62B405236E0032675C10FB619CD0AA90 (void);
+extern void ToggleCanvas_Update_mB47DC01CD3252D21E97BF8A6E7D65AD5B796EA0D (void);
+extern void ToggleCanvas_EnableCanvas_m89FCCB7BE94BC7D9E5E89789B2E66234DA57E360 (void);
+extern void ToggleCanvas_DisableCanvas_mF895F2DDA460315231BCB01B8515481150E95ABD (void);
+extern void ToggleCanvas__ctor_mE6F305AD2CE2577DAFDA122BCC875ADC1001BCE4 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
 extern void LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9 (void);
@@ -23,7 +29,7 @@ extern void LowPolyWater_Update_mA0B0C1966279CC287BEB91A684AC4DF1D8B8EF54 (void)
 extern void LowPolyWater_GenerateWaves_m272208F2F0BD170DFCD36057697CE2777EF66972 (void);
 extern void LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18 (void);
 extern void LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611 (void);
-static Il2CppMethodPointer s_methodPointers[16] = 
+static Il2CppMethodPointer s_methodPointers[22] = 
 {
 	ShipController_Start_m67120F2E87F500D5A81B8766ECDD307BF4ABDC7A,
 	ShipController_Update_mBBB11654D21367FEFF0E25C5B639E1920963C51D,
@@ -32,6 +38,12 @@ static Il2CppMethodPointer s_methodPointers[16] =
 	Floater_FixedUpdate_mF9681473BAA4989FD58F5FF84E31F50927AED083,
 	Floater_HandleWaterInteraction_mF66E9844DC67A070345925F839437F3B4B1F0689,
 	Floater__ctor_mF3A7942EBC5B74ACA791D334E8BBFA14F8F7D5BE,
+	FPSCapper_Awake_m1DF765397A03B48EFEDBA2AF1BD10572F78CE2BB,
+	FPSCapper__ctor_m3D3AE1EA62B405236E0032675C10FB619CD0AA90,
+	ToggleCanvas_Update_mB47DC01CD3252D21E97BF8A6E7D65AD5B796EA0D,
+	ToggleCanvas_EnableCanvas_m89FCCB7BE94BC7D9E5E89789B2E66234DA57E360,
+	ToggleCanvas_DisableCanvas_mF895F2DDA460315231BCB01B8515481150E95ABD,
+	ToggleCanvas__ctor_mE6F305AD2CE2577DAFDA122BCC875ADC1001BCE4,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 	LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9,
@@ -42,30 +54,36 @@ static Il2CppMethodPointer s_methodPointers[16] =
 	LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18,
 	LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611,
 };
-static const int32_t s_InvokerIndices[16] = 
+static const int32_t s_InvokerIndices[22] = 
 {
-	1199,
-	1199,
-	1199,
-	1199,
-	1199,
-	1199,
-	1199,
-	2333,
-	1199,
-	1199,
-	1199,
-	907,
-	1199,
-	1199,
-	936,
-	1199,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	4580,
+	6746,
+	4580,
+	4580,
+	4580,
+	3203,
+	4580,
+	4580,
+	3356,
+	4580,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	16,
+	22,
 	s_methodPointers,
 	0,
 	NULL,
