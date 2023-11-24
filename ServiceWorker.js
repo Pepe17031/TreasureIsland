@@ -1,9 +1,9 @@
 const cacheName = "Frog Company-Treasure Island-0.1";
 const contentToCache = [
     "Build/TreasureIsland.loader.js",
-    "Build/TreasureIsland.framework.js",
-    "Build/TreasureIsland.data",
-    "Build/TreasureIsland.wasm",
+    "Build/TreasureIsland.framework.js.gz",
+    "Build/TreasureIsland.data.gz",
+    "Build/TreasureIsland.wasm.gz",
     "TemplateData/style.css"
 
 ];
