@@ -318,7 +318,9 @@
         308,
         309,
         310,
-        311
+        311,
+        312,
+        313
       ],
       "DebugActionIndex": 0
     },
@@ -2241,7 +2243,7 @@
     {
       "Annotation": "IL2CPP_CodeGen C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/il2cpp_conv_w6bc.traceevents",
       "DisplayName": "Converting Assemblies with IL2CPP",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --generatedcppdir=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --usymtool-path=\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data\\Tools\\usymtool.exe\" --profiler-report --profiler-output-file=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/il2cpp_conv_w6bc.traceevents\" --print-command-line --static-lib-il2-cpp --data-folder=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --generatedcppdir=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --usymtool-path=\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data\\Tools\\usymtool.exe\" --profiler-report --profiler-output-file=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/il2cpp_conv_w6bc.traceevents\" --print-command-line --static-lib-il2-cpp --data-folder=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
       "ProfilerOutput": "C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/il2cpp_conv_w6bc.traceevents",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.dll",
@@ -2532,12 +2534,14 @@
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Tools/usymtool.exe"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -3018,16 +3022,18 @@
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp",
       "DisplayName": "Generating internal call registration code",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/bin/mono\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe\" -output=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\" -summary=\"Library/Bee/artifacts/WebGL/ManagedStripped/icallsummary.txt\" -assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/bin/mono\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe\" -output=\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\" -summary=\"Library/Bee/artifacts/WebGL/ManagedStripped/icallsummary.txt\" -assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -13599,6 +13605,61 @@
       "ScannerIndex": 3
     },
     {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nj1w39rixqc.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nj1w39rixqc.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp\"",
+      "Inputs": [
+        "C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nj1w39rixqc.o"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 233,
+      "ScannerIndex": 3
+    },
+    {
       "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y63rm1378l6z.o",
       "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y63rm1378l6z.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PhysicsModule.cpp\"",
@@ -13650,7 +13711,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 233,
+      "DebugActionIndex": 234,
       "ScannerIndex": 3
     },
     {
@@ -13705,7 +13766,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 234,
+      "DebugActionIndex": 235,
       "ScannerIndex": 3
     },
     {
@@ -13760,7 +13821,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 235,
+      "DebugActionIndex": 236,
       "ScannerIndex": 3
     },
     {
@@ -13815,7 +13876,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 236,
+      "DebugActionIndex": 237,
       "ScannerIndex": 3
     },
     {
@@ -13870,7 +13931,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 237,
+      "DebugActionIndex": 238,
       "ScannerIndex": 3
     },
     {
@@ -13925,7 +13986,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 238,
+      "DebugActionIndex": 239,
       "ScannerIndex": 3
     },
     {
@@ -13980,7 +14041,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 239,
+      "DebugActionIndex": 240,
       "ScannerIndex": 3
     },
     {
@@ -14035,7 +14096,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 240,
+      "DebugActionIndex": 241,
       "ScannerIndex": 3
     },
     {
@@ -14090,7 +14151,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 241,
+      "DebugActionIndex": 242,
       "ScannerIndex": 3
     },
     {
@@ -14145,7 +14206,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 242,
+      "DebugActionIndex": 243,
       "ScannerIndex": 3
     },
     {
@@ -14200,7 +14261,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 243,
+      "DebugActionIndex": 244,
       "ScannerIndex": 3
     },
     {
@@ -14255,7 +14316,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 244,
+      "DebugActionIndex": 245,
       "ScannerIndex": 3
     },
     {
@@ -14310,7 +14371,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 245,
+      "DebugActionIndex": 246,
       "ScannerIndex": 3
     },
     {
@@ -14365,7 +14426,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 246,
+      "DebugActionIndex": 247,
       "ScannerIndex": 3
     },
     {
@@ -14420,7 +14481,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 247,
+      "DebugActionIndex": 248,
       "ScannerIndex": 3
     },
     {
@@ -14475,7 +14536,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 248,
+      "DebugActionIndex": 249,
       "ScannerIndex": 3
     },
     {
@@ -14530,7 +14591,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 249,
+      "DebugActionIndex": 250,
       "ScannerIndex": 3
     },
     {
@@ -14585,7 +14646,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 250,
+      "DebugActionIndex": 251,
       "ScannerIndex": 3
     },
     {
@@ -14640,7 +14701,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 251,
+      "DebugActionIndex": 252,
       "ScannerIndex": 3
     },
     {
@@ -14695,7 +14756,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 252,
+      "DebugActionIndex": 253,
       "ScannerIndex": 3
     },
     {
@@ -14750,7 +14811,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 253,
+      "DebugActionIndex": 254,
       "ScannerIndex": 3
     },
     {
@@ -14805,7 +14866,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 254,
+      "DebugActionIndex": 255,
       "ScannerIndex": 3
     },
     {
@@ -14860,7 +14921,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 255,
+      "DebugActionIndex": 256,
       "ScannerIndex": 3
     },
     {
@@ -14915,7 +14976,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 256,
+      "DebugActionIndex": 257,
       "ScannerIndex": 3
     },
     {
@@ -14970,7 +15031,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 257,
+      "DebugActionIndex": 258,
       "ScannerIndex": 3
     },
     {
@@ -15025,7 +15086,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 258,
+      "DebugActionIndex": 259,
       "ScannerIndex": 3
     },
     {
@@ -15080,7 +15141,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 259,
+      "DebugActionIndex": 260,
       "ScannerIndex": 3
     },
     {
@@ -15135,7 +15196,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 260,
+      "DebugActionIndex": 261,
       "ScannerIndex": 3
     },
     {
@@ -15190,7 +15251,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 261,
+      "DebugActionIndex": 262,
       "ScannerIndex": 3
     },
     {
@@ -15245,7 +15306,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 262,
+      "DebugActionIndex": 263,
       "ScannerIndex": 3
     },
     {
@@ -15300,7 +15361,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 263,
+      "DebugActionIndex": 264,
       "ScannerIndex": 3
     },
     {
@@ -15355,7 +15416,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 264,
+      "DebugActionIndex": 265,
       "ScannerIndex": 3
     },
     {
@@ -15410,7 +15471,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 265,
+      "DebugActionIndex": 266,
       "ScannerIndex": 3
     },
     {
@@ -15465,7 +15526,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 266,
+      "DebugActionIndex": 267,
       "ScannerIndex": 3
     },
     {
@@ -15520,7 +15581,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 267,
+      "DebugActionIndex": 268,
       "ScannerIndex": 3
     },
     {
@@ -15575,7 +15636,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 268,
+      "DebugActionIndex": 269,
       "ScannerIndex": 3
     },
     {
@@ -15630,7 +15691,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 269,
+      "DebugActionIndex": 270,
       "ScannerIndex": 3
     },
     {
@@ -15685,7 +15746,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 270,
+      "DebugActionIndex": 271,
       "ScannerIndex": 3
     },
     {
@@ -15740,7 +15801,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 271,
+      "DebugActionIndex": 272,
       "ScannerIndex": 3
     },
     {
@@ -15795,7 +15856,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 272,
+      "DebugActionIndex": 273,
       "ScannerIndex": 3
     },
     {
@@ -15850,7 +15911,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 273,
+      "DebugActionIndex": 274,
       "ScannerIndex": 3
     },
     {
@@ -15905,7 +15966,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 274,
+      "DebugActionIndex": 275,
       "ScannerIndex": 3
     },
     {
@@ -15960,7 +16021,62 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 275,
+      "DebugActionIndex": 276,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yyjowktt8a1j.o",
+      "DisplayName": "Compiling C for GameAssembly (wasm)",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yyjowktt8a1j.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc \"C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule_CodeGen.c\"",
+      "Inputs": [
+        "C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule_CodeGen.c",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yyjowktt8a1j.o"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 277,
       "ScannerIndex": 3
     },
     {
@@ -16015,7 +16131,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 276,
+      "DebugActionIndex": 278,
       "ScannerIndex": 3
     },
     {
@@ -16070,7 +16186,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 277,
+      "DebugActionIndex": 279,
       "ScannerIndex": 3
     },
     {
@@ -16125,7 +16241,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 278,
+      "DebugActionIndex": 280,
       "ScannerIndex": 3
     },
     {
@@ -16180,7 +16296,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 279,
+      "DebugActionIndex": 281,
       "ScannerIndex": 3
     },
     {
@@ -16235,7 +16351,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 280,
+      "DebugActionIndex": 282,
       "ScannerIndex": 3
     },
     {
@@ -16290,13 +16406,13 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 281,
+      "DebugActionIndex": 283,
       "ScannerIndex": 3
     },
     {
       "Annotation": "Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a",
       "DisplayName": "Linking GameAssembly.a (wasm)",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat\" qcL \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8gt4fpuvvt7x.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j2vhq9s09tco.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gpabgtl33oz8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ccpsv9bxk88u.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ry74lklfodgc.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s6rl6z1dsfxr.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dmv9l9fbv38a.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eufq6ow9y5pq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z9iemya71t19.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kpm217o44hdt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lx6imn528ju8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6ca71wj0b85r.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y1ren4izw0hu.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kmez2035kvt2.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bmub7y0v3bub.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bik1vdwgx0iv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u7lsbey2njpc.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3p329zg7cank.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ocljee1trte5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1ce60mnvo3rz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iohoisl254cz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5c6iv2omzboe.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jleayarzx7x3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/soqmmcxz1co1.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c3enh2ocnw32.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7lr7xmwa2arv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/89csu4bzrwx0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tf7271vjad7p.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6mq0ot9kok09.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9gj95cocizdt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y63rm1378l6z.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y16xeoqberff.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kwwxwgowuf9m.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l0ibc0l8lvpv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l6vvg9pn4z1j.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pvb6vb63qpqq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/acxxmyc7sid8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kk26yql0v942.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5z5ue0zxyxgm.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/67pbzfgw2zx1.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rntzeput5n9k.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/svdgz4as9pq0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dbh4eeppce2j.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yqksun3mf2d3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zy48e3jlj4ui.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vr0l27q4v6or.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wzk2mn72z856.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hfoq2wl02whq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/in86mc2y6yy5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/32bv2lgw9map.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oifjivutcbm8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pqzz2absgd3n.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a62nikppj1e7.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w4awppwy3ns3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jfmq6z8v6g3h.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8dc8n00r0rx0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vpr8ba7qkkaz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j9aus4ovb4e5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z9ehddtf0xoz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wredozolvua9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vpg7crbbemph.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6gge8aoyvibn.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4tgud7rau4p9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c0mt57gf56xz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kz7xf2i94p3a.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/goszimqtttc9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1qha18god1uy.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ji302ydtokmt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w0r14h7956pi.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w7g0gd2cpdgy.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fthso1n9d4tg.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xzsol10p8pkp.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/av82w5s5j4fs.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/usv41wue5xoo.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yan2z65y5pr2.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sbbccxzrfzq0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/psmueobjlstw.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pqd0h3p873se.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dfq30unb6w2d.o\" \"Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Variations/development/baselib.a\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat\" qcL \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8gt4fpuvvt7x.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j2vhq9s09tco.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gpabgtl33oz8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ccpsv9bxk88u.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ry74lklfodgc.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s6rl6z1dsfxr.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dmv9l9fbv38a.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eufq6ow9y5pq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z9iemya71t19.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kpm217o44hdt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lx6imn528ju8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6ca71wj0b85r.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y1ren4izw0hu.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kmez2035kvt2.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bmub7y0v3bub.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bik1vdwgx0iv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u7lsbey2njpc.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3p329zg7cank.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ocljee1trte5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1ce60mnvo3rz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iohoisl254cz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5c6iv2omzboe.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jleayarzx7x3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/soqmmcxz1co1.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c3enh2ocnw32.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7lr7xmwa2arv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/89csu4bzrwx0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tf7271vjad7p.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6mq0ot9kok09.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9gj95cocizdt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nj1w39rixqc.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y63rm1378l6z.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y16xeoqberff.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kwwxwgowuf9m.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l0ibc0l8lvpv.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l6vvg9pn4z1j.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pvb6vb63qpqq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/acxxmyc7sid8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kk26yql0v942.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5z5ue0zxyxgm.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/67pbzfgw2zx1.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rntzeput5n9k.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/svdgz4as9pq0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dbh4eeppce2j.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yqksun3mf2d3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zy48e3jlj4ui.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vr0l27q4v6or.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wzk2mn72z856.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hfoq2wl02whq.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/in86mc2y6yy5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/32bv2lgw9map.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oifjivutcbm8.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pqzz2absgd3n.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a62nikppj1e7.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w4awppwy3ns3.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jfmq6z8v6g3h.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8dc8n00r0rx0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vpr8ba7qkkaz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j9aus4ovb4e5.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z9ehddtf0xoz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wredozolvua9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vpg7crbbemph.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6gge8aoyvibn.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4tgud7rau4p9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c0mt57gf56xz.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kz7xf2i94p3a.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/goszimqtttc9.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1qha18god1uy.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ji302ydtokmt.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w0r14h7956pi.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w7g0gd2cpdgy.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fthso1n9d4tg.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xzsol10p8pkp.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/av82w5s5j4fs.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yyjowktt8a1j.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/usv41wue5xoo.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yan2z65y5pr2.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sbbccxzrfzq0.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/psmueobjlstw.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pqd0h3p873se.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dfq30unb6w2d.o\" \"Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Variations/development/baselib.a\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8gt4fpuvvt7x.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j2vhq9s09tco.o",
@@ -16328,6 +16444,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tf7271vjad7p.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6mq0ot9kok09.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9gj95cocizdt.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6nj1w39rixqc.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y63rm1378l6z.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y16xeoqberff.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kwwxwgowuf9m.o",
@@ -16371,6 +16488,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fthso1n9d4tg.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xzsol10p8pkp.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/av82w5s5j4fs.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yyjowktt8a1j.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/usv41wue5xoo.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yan2z65y5pr2.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sbbccxzrfzq0.o",
@@ -16382,6 +16500,8 @@
         "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat"
       ],
       "InputFlags": [
+        0,
+        0,
         0,
         0,
         0,
@@ -16551,7 +16671,9 @@
         278,
         279,
         280,
-        281
+        281,
+        282,
+        283
       ],
       "AllowUnexpectedOutput": true,
       "Env": [
@@ -16580,7 +16702,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a",
@@ -16599,13 +16721,13 @@
         2
       ],
       "ToBuildDependencies": [
-        282
+        284
       ],
       "ToUseDependencies": [
-        284,
-        285
+        286,
+        287
       ],
-      "DebugActionIndex": 283
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat",
@@ -16626,7 +16748,7 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 284
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat",
@@ -16647,7 +16769,7 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 285
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
@@ -16664,7 +16786,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 286
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)",
@@ -16881,8 +17003,8 @@
         2
       ],
       "ToBuildDependencies": [
-        283,
-        286
+        285,
+        288
       ],
       "AllowUnexpectedOutput": true,
       "Env": [
@@ -16911,7 +17033,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 287
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
@@ -16928,7 +17050,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 288
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "Merging JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
@@ -16957,12 +17079,12 @@
         0
       ],
       "ToBuildDependencies": [
-        287,
-        288
+        289,
+        290
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/Build/WebGameBuild.framework.js",
@@ -16981,9 +17103,9 @@
         10
       ],
       "ToBuildDependencies": [
-        289
+        291
       ],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/Build/WebGameBuild.wasm",
@@ -17002,9 +17124,9 @@
         10
       ],
       "ToBuildDependencies": [
-        287
+        289
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -17025,7 +17147,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -17046,7 +17168,7 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -17063,7 +17185,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -17106,11 +17228,11 @@
       "ToBuildDependencies": [
         2,
         5,
-        294
+        296
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/Build/WebGameBuild.data",
@@ -17129,14 +17251,14 @@
         10
       ],
       "ToBuildDependencies": [
-        295
+        297
       ],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "PreprocessJS C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/Build/WebGameBuild.loader.js",
       "DisplayName": "Preprocessing JavaScript WebGameBuild.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/Build/WebGameBuild.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/Build/WebGameBuild.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION='KLAYMAKERS23'\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -17150,19 +17272,19 @@
         8
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "PreprocessJS C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/index.html",
       "DisplayName": "Preprocessing JavaScript index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/index.html'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION='KLAYMAKERS23'\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/index.html"
       ],
       "InputFlags": [
         0
@@ -17174,19 +17296,67 @@
         8
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 300
+    },
+    {
+      "Annotation": "PreprocessJS C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/manifest.webmanifest",
+      "DisplayName": "Preprocessing JavaScript manifest.webmanifest",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/manifest.webmanifest'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/manifest.webmanifest'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION='KLAYMAKERS23'\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/manifest.webmanifest"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/manifest.webmanifest"
+      ],
+      "OutputFlags": [
+        8
+      ],
+      "ToBuildDependencies": [
+        292,
+        293
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 301
+    },
+    {
+      "Annotation": "PreprocessJS C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/ServiceWorker.js",
+      "DisplayName": "Preprocessing JavaScript ServiceWorker.js",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/ServiceWorker.js'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/ServiceWorker.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION='KLAYMAKERS23'\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/ServiceWorker.js"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/ServiceWorker.js"
+      ],
+      "OutputFlags": [
+        8
+      ],
+      "ToBuildDependencies": [
+        292,
+        293
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/favicon.ico",
       "DisplayName": "Copying favicon.ico",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/favicon.ico"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/favicon.ico"
       ],
       "InputFlags": [
         0
@@ -17198,61 +17368,61 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 303
     },
     {
-      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/fullscreen-button.png",
-      "DisplayName": "Copying fullscreen-button.png",
+      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/icons/unity-logo-dark.png",
+      "DisplayName": "Copying unity-logo-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/fullscreen-button.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/icons/unity-logo-dark.png"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/fullscreen-button.png"
+        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/icons/unity-logo-dark.png"
       ],
       "OutputFlags": [
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 304
     },
     {
-      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/MemoryProfiler.png",
-      "DisplayName": "Copying MemoryProfiler.png",
+      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/icons/unity-logo-light.png",
+      "DisplayName": "Copying unity-logo-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/MemoryProfiler.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/icons/unity-logo-light.png"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/MemoryProfiler.png"
+        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/icons/unity-logo-light.png"
       ],
       "OutputFlags": [
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/progress-bar-empty-dark.png",
       "DisplayName": "Copying progress-bar-empty-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-empty-dark.png"
       ],
       "InputFlags": [
         0
@@ -17264,17 +17434,17 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/progress-bar-empty-light.png",
       "DisplayName": "Copying progress-bar-empty-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-empty-light.png"
       ],
       "InputFlags": [
         0
@@ -17286,17 +17456,17 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/progress-bar-full-dark.png",
       "DisplayName": "Copying progress-bar-full-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-full-dark.png"
       ],
       "InputFlags": [
         0
@@ -17308,17 +17478,17 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/progress-bar-full-light.png",
       "DisplayName": "Copying progress-bar-full-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/progress-bar-full-light.png"
       ],
       "InputFlags": [
         0
@@ -17330,17 +17500,17 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "PreprocessJS C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/style.css",
       "DisplayName": "Preprocessing JavaScript style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/pepe1/OneDrive/\\u0420\\u0430\\u0431\\u043e\\u0447\\u0438\\u0439 \\u0441\\u0442\\u043e\\u043b/WebGameBuild/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='Frog Company'\" \"PRODUCT_NAME='Treasure Island'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGameBuild.data'\" \"FRAMEWORK_FILENAME='WebGameBuild.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGameBuild.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=true\" \"UNITY_VERSION='2023.1.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"PRODUCT_DESCRIPTION='KLAYMAKERS23'\" \"LOADER_FILENAME='WebGameBuild.loader.js'\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/style.css"
       ],
       "InputFlags": [
         0
@@ -17352,19 +17522,19 @@
         8
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/unity-logo-dark.png",
       "DisplayName": "Copying unity-logo-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-dark.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/unity-logo-dark.png"
       ],
       "InputFlags": [
         0
@@ -17376,17 +17546,17 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/unity-logo-light.png",
       "DisplayName": "Copying unity-logo-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-light.png"
+        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA/TemplateData/unity-logo-light.png"
       ],
       "InputFlags": [
         0
@@ -17398,54 +17568,10 @@
         10
       ],
       "ToBuildDependencies": [
-        290,
-        291
+        292,
+        293
       ],
-      "DebugActionIndex": 308
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/webgl-logo.png",
-      "DisplayName": "Copying webgl-logo.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webgl-logo.png"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/webgl-logo.png"
-      ],
-      "OutputFlags": [
-        10
-      ],
-      "ToBuildDependencies": [
-        290,
-        291
-      ],
-      "DebugActionIndex": 309
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/webmemd-icon.png",
-      "DisplayName": "Copying webmemd-icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webmemd-icon.png"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/pepe1/OneDrive/Рабочий стол/WebGameBuild/TemplateData/webmemd-icon.png"
-      ],
-      "OutputFlags": [
-        10
-      ],
-      "ToBuildDependencies": [
-        290,
-        291
-      ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "Player",
@@ -17456,13 +17582,11 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         4,
-        283,
-        290,
-        291,
+        285,
         292,
         293,
-        296,
-        297,
+        294,
+        295,
         298,
         299,
         300,
@@ -17475,9 +17599,11 @@
         307,
         308,
         309,
-        310
+        310,
+        311,
+        312
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 313
     }
   ],
   "FileSignatures": [
@@ -17805,7 +17931,7 @@
       "Filter": "*.js"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA",
       "Recurse": 1
     },
     {
@@ -17854,7 +17980,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 311
+          "Player": 313
         }
 ,  "DefaultNodes": [
     0

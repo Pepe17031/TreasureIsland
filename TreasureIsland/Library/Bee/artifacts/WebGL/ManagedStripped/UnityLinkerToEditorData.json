@@ -7,7 +7,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -21,7 +21,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -58,7 +58,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -78,7 +78,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -98,7 +98,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -112,7 +112,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -138,7 +138,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -146,7 +146,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -166,7 +166,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -180,7 +180,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -188,7 +188,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -196,7 +196,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -204,7 +204,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -212,7 +212,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -226,7 +226,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -234,7 +234,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -278,7 +278,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -310,7 +310,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -384,7 +384,7 @@
           {
             "name": "Transform",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -394,6 +394,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.audio"
+          },
+          {
+            "name": "Required by InputLegacy Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.inputlegacy"
           },
           {
             "name": "Required by JSONSerialize Module",
@@ -422,6 +428,10 @@
         ]
       },
       {
+        "name": "InputLegacy",
+        "dependencies": []
+      },
+      {
         "name": "JSONSerialize",
         "dependencies": [
           {
@@ -438,7 +448,15 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CapsuleCollider",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -452,7 +470,15 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/OceanMap.unity"
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PhysicMaterial",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -461,6 +487,14 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody",
+            "scenes": [
+              "Assets/OceanMap/Scenes/OceanMap.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           }
         ]
@@ -490,6 +524,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.core"
+          },
+          {
+            "name": "Required by InputLegacy Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.inputlegacy"
           },
           {
             "name": "Required by JSONSerialize Module",

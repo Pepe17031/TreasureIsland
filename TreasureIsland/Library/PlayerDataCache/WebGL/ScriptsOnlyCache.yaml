@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Floater
     - LowPolyWater.LowPolyWater
+    - ShipController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.RiderScriptEditorPersistedState
@@ -20,7 +22,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/OceanMap.unity:
+    Assets/OceanMap/Scenes/OceanMap.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -39,6 +41,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -52,8 +56,16 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 23704}
+      Script: {instanceID: 17720}
+    - Class: 114
+      Script: {instanceID: 17908}
+    - Class: 114
+      Script: {instanceID: 21274}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -122,6 +134,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6180decdb4561c9bb15d48ec93191253
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Floater
+  - hash:
+      serializedVersion: 2
       Hash: 63815508dfd6cf329d5c593ac8e76888
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -150,6 +168,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 0e4d429be4a1af543fdf9a6044e25188
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShipController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -608,6 +632,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 011ae9fec12e1229e73fea33a45acce8
+    assemblyName: Assembly-CSharp
+    namespaceName: LowPolyWater
+    className: LowPolyWater
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -840,14 +870,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 011ae9fec12e1229e73fea33a45acce8
-    assemblyName: Assembly-CSharp
-    namespaceName: LowPolyWater
-    className: LowPolyWater
   platform: 20
   scenePathNames:
-  - Assets/Scenes/OceanMap.unity
+  - Assets/OceanMap/Scenes/OceanMap.unity
   playerPath: "C:/Users/pepe1/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
     \u0441\u0442\u043E\u043B/WebGameBuild"

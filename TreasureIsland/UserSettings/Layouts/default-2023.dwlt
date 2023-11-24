@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2752
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 156
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 98
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 501.6
     height: 647.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -352,9 +352,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d838feff80a1feffbeccfefffeccfeff34cefeff86ecffff38f1ffffb8f9ffff
+      m_SelectedIDs: 2a5c0000
+      m_LastClickedID: 23594
+      m_ExpandedIDs: 5e80ffff9c89ffff58f7ffff20fbffff165c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -854,9 +854,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.235344, y: -66.5782, z: -59.8471}
+    m_Target: {x: 52.850464, y: -1760.7366, z: -1050.8423}
     speed: 2
-    m_Value: {x: 21.235344, y: -66.5782, z: -59.8471}
+    m_Value: {x: 52.850464, y: -1760.7366, z: -1050.8423}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -902,13 +902,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.069767036, y: 0.9038376, z: -0.3909496, w: 0.16049717}
+    m_Target: {x: 0.011878576, y: 0.8696099, z: -0.49365604, w: 0.022001669}
     speed: 2
-    m_Value: {x: 0.06975341, y: 0.9036611, z: -0.39087322, w: 0.16046582}
+    m_Value: {x: 0.011875353, y: 0.8693739, z: -0.49352208, w: 0.021995699}
   m_Size:
-    m_Target: 56.752754
+    m_Target: 1036.0447
     speed: 2
-    m_Value: 56.752754
+    m_Value: 1036.0447
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1080,7 +1080,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/OceanMap/Scripts
+    - Assets/OceanMap
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1090,17 +1090,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/OceanMap/Scripts
+  - Assets/OceanMap
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\pepe1\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439
     \u0441\u0442\u043E\u043B\\TreasureIsland\\TreasureIsland"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 005c0000
-    m_LastClickedID: 23552
-    m_ExpandedIDs: 00000000e45b0000005c0000d05f00001a6500001e65000070650000786500000471000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a85d0000
+    m_LastClickedID: 23976
+    m_ExpandedIDs: 000000007e5d0000805d0000a85d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e45b0000
+    m_ExpandedIDs: 000000007e5d0000805d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1156,7 +1156,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300007e670000
+    m_ExpandedInstanceIDs: c62300007e670000ba5c00000000000078640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

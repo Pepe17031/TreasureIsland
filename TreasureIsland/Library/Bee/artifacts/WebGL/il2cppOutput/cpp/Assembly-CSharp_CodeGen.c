@@ -7,6 +7,13 @@
 
 
 
+extern void ShipController_Start_m67120F2E87F500D5A81B8766ECDD307BF4ABDC7A (void);
+extern void ShipController_Update_mBBB11654D21367FEFF0E25C5B639E1920963C51D (void);
+extern void ShipController__ctor_mE4736418B5427059FE5DF6518C34F2642720CD2D (void);
+extern void Floater_Start_mC2E2936E18599D6ECACA9B3DBD262B70DD8C1D44 (void);
+extern void Floater_FixedUpdate_mF9681473BAA4989FD58F5FF84E31F50927AED083 (void);
+extern void Floater_HandleWaterInteraction_mF66E9844DC67A070345925F839437F3B4B1F0689 (void);
+extern void Floater__ctor_mF3A7942EBC5B74ACA791D334E8BBFA14F8F7D5BE (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
 extern void LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9 (void);
@@ -16,8 +23,15 @@ extern void LowPolyWater_Update_mA0B0C1966279CC287BEB91A684AC4DF1D8B8EF54 (void)
 extern void LowPolyWater_GenerateWaves_m272208F2F0BD170DFCD36057697CE2777EF66972 (void);
 extern void LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18 (void);
 extern void LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611 (void);
-static Il2CppMethodPointer s_methodPointers[9] = 
+static Il2CppMethodPointer s_methodPointers[16] = 
 {
+	ShipController_Start_m67120F2E87F500D5A81B8766ECDD307BF4ABDC7A,
+	ShipController_Update_mBBB11654D21367FEFF0E25C5B639E1920963C51D,
+	ShipController__ctor_mE4736418B5427059FE5DF6518C34F2642720CD2D,
+	Floater_Start_mC2E2936E18599D6ECACA9B3DBD262B70DD8C1D44,
+	Floater_FixedUpdate_mF9681473BAA4989FD58F5FF84E31F50927AED083,
+	Floater_HandleWaterInteraction_mF66E9844DC67A070345925F839437F3B4B1F0689,
+	Floater__ctor_mF3A7942EBC5B74ACA791D334E8BBFA14F8F7D5BE,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 	LowPolyWater_Awake_m9CEA90E96A89A759F393E3A137B7FA4B089799B9,
@@ -28,23 +42,30 @@ static Il2CppMethodPointer s_methodPointers[9] =
 	LowPolyWater_GetWaveHeight_m43BE29DC18D220104865073A46586929C7BB0C18,
 	LowPolyWater__ctor_m6275136A91915331F9D7D023A66AE845B2D55611,
 };
-static const int32_t s_InvokerIndices[9] = 
+static const int32_t s_InvokerIndices[16] = 
 {
-	2295,
-	1182,
-	1182,
-	1182,
-	896,
-	1182,
-	1182,
-	924,
-	1182,
+	1199,
+	1199,
+	1199,
+	1199,
+	1199,
+	1199,
+	1199,
+	2333,
+	1199,
+	1199,
+	1199,
+	907,
+	1199,
+	1199,
+	936,
+	1199,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	9,
+	16,
 	s_methodPointers,
 	0,
 	NULL,

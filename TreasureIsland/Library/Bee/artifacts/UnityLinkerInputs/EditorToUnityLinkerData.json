@@ -21,8 +21,15 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Floater",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -30,7 +37,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -46,7 +53,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -62,7 +69,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -78,7 +85,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -100,6 +107,13 @@
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ShipController",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -136,7 +150,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -187,7 +201,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -196,7 +210,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -205,7 +219,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -214,7 +228,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -223,7 +237,16 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -232,7 +255,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -241,7 +264,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -250,7 +273,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -259,7 +282,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -268,7 +291,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -277,7 +300,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -286,7 +309,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -295,7 +318,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -304,7 +327,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -313,7 +336,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -322,7 +345,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -331,7 +354,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -340,7 +363,16 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PhysicMaterial",
+            "fullManagedTypeName": "UnityEngine.PhysicMaterial",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -356,7 +388,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -372,7 +404,16 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody",
+            "fullManagedTypeName": "UnityEngine.Rigidbody",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -381,7 +422,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -397,7 +438,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -406,7 +447,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -415,7 +456,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         },
         {
@@ -424,7 +465,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/OceanMap.unity"
+                "Assets/OceanMap/Scenes/OceanMap.unity"
             ]
         }
     ],

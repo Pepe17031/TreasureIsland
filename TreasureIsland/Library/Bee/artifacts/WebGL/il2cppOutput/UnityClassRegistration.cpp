@@ -9,6 +9,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Audio();
 	RegisterModule_Audio();
 
+	void RegisterModule_InputLegacy();
+	RegisterModule_InputLegacy();
+
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
@@ -89,15 +92,18 @@ class Texture3D; template <> void RegisterUnityClass<Texture3D>(const char*);
 class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
+class CapsuleCollider; template <> void RegisterUnityClass<CapsuleCollider>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
+class PhysicMaterial; template <> void RegisterUnityClass<PhysicMaterial>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
+class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 
 void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 61 non stripped classes
+	//Total: 64 non stripped classes
 	//0. AudioBehaviour
 	RegisterUnityClass<AudioBehaviour>("Audio");
 	//1. AudioClip
@@ -214,11 +220,17 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Transform>("Core");
 	//57. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//58. Collider
+	//58. CapsuleCollider
+	RegisterUnityClass<CapsuleCollider>("Physics");
+	//59. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//59. MeshCollider
+	//60. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//60. PhysicsManager
+	//61. PhysicMaterial
+	RegisterUnityClass<PhysicMaterial>("Physics");
+	//62. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
+	//63. Rigidbody
+	RegisterUnityClass<Rigidbody>("Physics");
 
 }
