@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - ToggleCanvas
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
@@ -118,17 +117,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19650}
     - Class: 114
-      Script: {instanceID: 19896}
+      Script: {instanceID: 19656}
     - Class: 114
-      Script: {instanceID: 20588}
+      Script: {instanceID: 19898}
     - Class: 114
-      Script: {instanceID: 21300}
+      Script: {instanceID: 20590}
     - Class: 114
-      Script: {instanceID: 21612}
+      Script: {instanceID: 21302}
     - Class: 114
-      Script: {instanceID: 23016}
+      Script: {instanceID: 21614}
     - Class: 114
-      Script: {instanceID: 26934}
+      Script: {instanceID: 23018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -516,6 +515,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 361b4edd7a27f93824d31b8b9ab0293f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FPSCapper
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -954,14 +959,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 361b4edd7a27f93824d31b8b9ab0293f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FPSCapper
   platform: 20
   scenePathNames:
   - Assets/OceanMap/Scenes/OceanMap.unity
   playerPath: "C:/Users/pepe1/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B/WebGameBuild"
+    \u0441\u0442\u043E\u043B/TreasureIsland"
