@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     - SDKConfiguration.ServerCheck
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -122,29 +121,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17128}
+      Script: {instanceID: 17146}
     - Class: 114
-      Script: {instanceID: 17196}
+      Script: {instanceID: 17220}
     - Class: 114
-      Script: {instanceID: 17950}
+      Script: {instanceID: 18058}
     - Class: 114
-      Script: {instanceID: 18224}
+      Script: {instanceID: 18376}
     - Class: 114
-      Script: {instanceID: 18518}
+      Script: {instanceID: 18704}
     - Class: 114
-      Script: {instanceID: 18650}
+      Script: {instanceID: 18852}
     - Class: 114
-      Script: {instanceID: 18710}
+      Script: {instanceID: 18930}
     - Class: 114
-      Script: {instanceID: 18728}
+      Script: {instanceID: 18950}
     - Class: 114
-      Script: {instanceID: 18928}
+      Script: {instanceID: 19170}
     - Class: 114
-      Script: {instanceID: 18958}
+      Script: {instanceID: 19200}
     - Class: 114
-      Script: {instanceID: 19254}
+      Script: {instanceID: 19532}
     - Class: 114
-      Script: {instanceID: 19404}
+      Script: {instanceID: 19698}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -187,25 +186,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17128}
+      Script: {instanceID: 17146}
     - Class: 114
-      Script: {instanceID: 17196}
+      Script: {instanceID: 17148}
     - Class: 114
-      Script: {instanceID: 17990}
+      Script: {instanceID: 17220}
     - Class: 114
-      Script: {instanceID: 18650}
+      Script: {instanceID: 18094}
     - Class: 114
-      Script: {instanceID: 18928}
+      Script: {instanceID: 18106}
     - Class: 114
-      Script: {instanceID: 19254}
+      Script: {instanceID: 18852}
     - Class: 114
-      Script: {instanceID: 19404}
+      Script: {instanceID: 18890}
     - Class: 114
-      Script: {instanceID: 20790}
+      Script: {instanceID: 19170}
     - Class: 114
-      Script: {instanceID: 25062}
+      Script: {instanceID: 19532}
     - Class: 114
-      Script: {instanceID: 26032}
+      Script: {instanceID: 19698}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -231,10 +230,22 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: db4ed341151af45372de6c5defaaedd4
+    assemblyName: SDKConfiguration.dll
+    namespaceName: SDKConfiguration
+    className: ServerCheck
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20SymbolExample
   - hash:
       serializedVersion: 2
       Hash: 0cadf67970140b3a7997770202c43c70
@@ -249,10 +260,22 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSetArray
+  - hash:
+      serializedVersion: 2
       Hash: 0249933f35dcc970b31eaae0159aebf9
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 99df77495c4aaffc724b0bb763129c14
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: Startup
   - hash:
       serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
@@ -261,10 +284,40 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC721URIExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetTxStatus
+  - hash:
+      serializedVersion: 2
       Hash: ea1569413d805748b7cef2dcb4622c85
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20CustomTokenBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletTransfer20Example
+  - hash:
+      serializedVersion: 2
+      Hash: 5136df4caf29a6a93a14cce155ba12a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLTransfer20
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -285,6 +338,12 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: 62def3a8cc509cb87f5ccc3aadf9b144
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLTransfer721
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -297,10 +356,22 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletSignMessageExample
+  - hash:
+      serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC721OwnerOfExample
   - hash:
       serializedVersion: 2
       Hash: 892b5093967522535ba980d28ce42084
@@ -309,10 +380,22 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletTransfer1155Example
+  - hash:
+      serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 570270ff8a512944bf68f1735d545db8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ListCollectionsWeb3Wallet
   - hash:
       serializedVersion: 2
       Hash: ea1569413d805748b7cef2dcb4622c85
@@ -325,6 +408,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC1155BalanceOfExample
+  - hash:
+      serializedVersion: 2
+      Hash: 854529cf53ae2a6f61d9ab118ce7aa61
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GetListedNFTWebWallet
   - hash:
       serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
@@ -345,6 +440,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AllErc1155Example
+  - hash:
+      serializedVersion: 2
       Hash: 747284d692f6c45bae4955ed655ed04c
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -363,10 +464,34 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: e48516c435226fdc288632d688d31865
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WalletLogin
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetGasPrice
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletTransfer721Example
+  - hash:
+      serializedVersion: 2
       Hash: bbd18fc68ceeefb10270c51811911485
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20DecimalsExample
   - hash:
       serializedVersion: 2
       Hash: c92e03126f82226c2e517b0c562a3094
@@ -379,6 +504,30 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletSendTransactionExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletLogOut
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSendTransactionExample
   - hash:
       serializedVersion: 2
       Hash: 21458b64fdf3b1c35574c2a0e82b859d
@@ -399,16 +548,34 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: IPFSUploadExample
+  - hash:
+      serializedVersion: 2
       Hash: 6180decdb4561c9bb15d48ec93191253
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Floater
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC721BalanceOfExample
+  - hash:
+      serializedVersion: 2
       Hash: 63815508dfd6cf329d5c593ac8e76888
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebLogin
   - hash:
       serializedVersion: 2
       Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
@@ -423,6 +590,42 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC1155URIExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetGasLimit
+  - hash:
+      serializedVersion: 2
+      Hash: cbee6a0b1457e6e4731c2a1e77fe9e14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AllErc1155
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetNonce
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletSignVerify
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetNonce
+  - hash:
+      serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -435,16 +638,58 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSignMessageExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletSendArray
+  - hash:
+      serializedVersion: 2
       Hash: 0e4d429be4a1af543fdf9a6044e25188
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ShipController
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChickenDemo1155VoucherMintExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetTxStatus
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSignOut
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetGasLimit
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC1155BalanceOfBatchExample
   - hash:
       serializedVersion: 2
       Hash: f60085eba621f0023ea84554fae25344
@@ -465,10 +710,34 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20TotalSupplyExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20NameExample
+  - hash:
+      serializedVersion: 2
+      Hash: d88802563d0687c7fa705ea3c38a17c6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MintWebGL1155
+  - hash:
+      serializedVersion: 2
       Hash: 34096a327d779b7c96a3e390f3559143
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSha3Example
   - hash:
       serializedVersion: 2
       Hash: 2bd8c519be1169f620572879a5e0d390
@@ -495,16 +764,52 @@ ScriptsOnlyBuild:
     className: FPSCapper
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetBlockNumber
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ImportNFTTextureExample
+  - hash:
+      serializedVersion: 2
+      Hash: af663b717e1a01b9ebb7aa2022377061
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MintWeb3Wallet721
+  - hash:
+      serializedVersion: 2
+      Hash: 1133fb95b3c9772dd1c11732e037fbd7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GetListedCollectionsWeb3Wallet
+  - hash:
+      serializedVersion: 2
       Hash: eb89cc9c55c1361dc02d4fea220cc023
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 8fb49ad5110c865a192f2668612c352c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSignVerifyExample
+  - hash:
+      serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0131e4bf3c76910ce959c25aec4f1c4b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AllErc721
   - hash:
       serializedVersion: 2
       Hash: 848c5c3c98557fc2f2199206a7eaa69a
@@ -525,6 +830,24 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: b6bd8e4ecec35defbb99799c7fbd6ae9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ProjectConfigScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: c782eb8b93f7b9654d3f4a42e8c19325
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CreateApprovalWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: 84e24062225beac4d71339f380e0600f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletGetArray
+  - hash:
+      serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -543,16 +866,46 @@ ScriptsOnlyBuild:
     className: LowPolyWater
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletSha3Example
+  - hash:
+      serializedVersion: 2
       Hash: 6298a10412e94e11ad85ac6148c9dda1
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 570270ff8a512944bf68f1735d545db8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ListCollectionsWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: c782eb8b93f7b9654d3f4a42e8c19325
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CreateApprovalWebWallet
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 854529cf53ae2a6f61d9ab118ce7aa61
+    assemblyName: Assembly-CSharp
+    namespaceName: Web3Unity.Scripts.Prefabs.Minter
+    className: GetListedNFTWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Web3WalletMint721V2
   - hash:
       serializedVersion: 2
       Hash: 6498fc76484598db46c5c1a11bab42fa
@@ -585,132 +938,6 @@ ScriptsOnlyBuild:
     className: InputField
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SpriteAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 751d867553f413cde86fe5db0b02780d
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: e021fae07b7c73933e18725f76623e21
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: df70afff09fcc26f54fe08084e6042ec
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: be140ea01a11255b651c097661ac55b1
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: afe1800287c9574079eab3fea2622416
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: a4d905db69ca7f45f45458ae380fb66f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: ActivationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: GridLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 0e28d8006f33a4c6bf3ef39e20820f9c
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: f4f39b64f410b0cd98b49df4bad0eb7e
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: b6bd8e4ecec35defbb99799c7fbd6ae9
-    assemblyName: Assembly-CSharp-firstpass
-    namespaceName: 
-    className: ProjectConfigScriptableObject
-  - hash:
-      serializedVersion: 2
-      Hash: 854529cf53ae2a6f61d9ab118ce7aa61
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GetListedNFTWebWallet
-  - hash:
-      serializedVersion: 2
-      Hash: 517bc1a90b5762ab1f9f60829c1aa450
-    assemblyName: Assembly-CSharp
-    namespaceName: Web3Unity.Scripts.Prefabs.Minter
-    className: ListNftWebWallet
-  - hash:
-      serializedVersion: 2
-      Hash: 570270ff8a512944bf68f1735d545db8
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ListCollectionsWeb3Wallet
-  - hash:
-      serializedVersion: 2
-      Hash: 1133fb95b3c9772dd1c11732e037fbd7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GetListedCollectionsWeb3Wallet
-  - hash:
-      serializedVersion: 2
-      Hash: c782eb8b93f7b9654d3f4a42e8c19325
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CreateApprovalWebGL
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AllErc721Example
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC1155URIExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSha3Example
-  - hash:
-      serializedVersion: 2
       Hash: 1133fb95b3c9772dd1c11732e037fbd7
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -718,297 +945,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletSignVerify
-  - hash:
-      serializedVersion: 2
-      Hash: e48516c435226fdc288632d688d31865
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WalletLogin
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSignMessageExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC721URIExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletGetGasPrice
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletSendTransactionExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletMint721V2
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ChickenDemo1155VoucherMintExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC1155BalanceOfBatchExample
-  - hash:
-      serializedVersion: 2
-      Hash: 99df77495c4aaffc724b0bb763129c14
-    assemblyName: Assembly-CSharp-firstpass
-    namespaceName: 
-    className: Startup
-  - hash:
-      serializedVersion: 2
-      Hash: 570270ff8a512944bf68f1735d545db8
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ListCollectionsWebGL
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletTransfer721Example
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC1155BalanceOfExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletTransfer1155Example
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletSendArray
-  - hash:
-      serializedVersion: 2
-      Hash: d88802563d0687c7fa705ea3c38a17c6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MintWebGL1155
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletGetGasLimit
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC721BalanceOfExample
-  - hash:
-      serializedVersion: 2
-      Hash: 62def3a8cc509cb87f5ccc3aadf9b144
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLTransfer721
-  - hash:
-      serializedVersion: 2
-      Hash: 5136df4caf29a6a93a14cce155ba12a1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLTransfer20
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetTxStatus
-  - hash:
-      serializedVersion: 2
-      Hash: af663b717e1a01b9ebb7aa2022377061
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MintWeb3Wallet1155
-  - hash:
-      serializedVersion: 2
-      Hash: c782eb8b93f7b9654d3f4a42e8c19325
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CreateApprovalWebWallet
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletTransfer20Example
-  - hash:
-      serializedVersion: 2
-      Hash: d88802563d0687c7fa705ea3c38a17c6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MintWebGL721
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20SymbolExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20NameExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletSignMessageExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20TotalSupplyExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC721OwnerOfExample
-  - hash:
-      serializedVersion: 2
-      Hash: af663b717e1a01b9ebb7aa2022377061
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MintWeb3Wallet721
-  - hash:
-      serializedVersion: 2
-      Hash: 84e24062225beac4d71339f380e0600f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletGetArray
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletGetNonce
-  - hash:
-      serializedVersion: 2
-      Hash: 0131e4bf3c76910ce959c25aec4f1c4b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AllErc721
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletLogOut
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ImportNFTTextureExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetGasPrice
-  - hash:
-      serializedVersion: 2
-      Hash: 854529cf53ae2a6f61d9ab118ce7aa61
-    assemblyName: Assembly-CSharp
-    namespaceName: Web3Unity.Scripts.Prefabs.Minter
-    className: GetListedNFTWebGL
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: IPFSUploadExample
-  - hash:
-      serializedVersion: 2
-      Hash: cbee6a0b1457e6e4731c2a1e77fe9e14
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AllErc1155
-  - hash:
-      serializedVersion: 2
-      Hash: 84e24062225beac4d71339f380e0600f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetArray
-  - hash:
-      serializedVersion: 2
-      Hash: 8fb49ad5110c865a192f2668612c352c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSignVerifyExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetNonce
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20CustomTokenBalance
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletSha3Example
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Web3WalletGetBlockNumber
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20BalanceOfExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSendTransactionExample
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1020,79 +959,7 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Web3WalletGetTxStatus
-  - hash:
-      serializedVersion: 2
-      Hash: 8ff1f65d091f408936ca483a4d75249a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ListNFTWebGL
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSendContractExample
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSignOut
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLSetArray
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ERC20DecimalsExample
-  - hash:
-      serializedVersion: 2
-      Hash: 059c1fec8751a9dcbd8718ab85895fbb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLTransfer1155
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AllErc1155Example
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
     className: ERC20NativeBalanceOf
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetGasLimit
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebLogin
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLGetBlockNumber
-  - hash:
-      serializedVersion: 2
-      Hash: db4ed341151af45372de6c5defaaedd4
-    assemblyName: SDKConfiguration.dll
-    namespaceName: SDKConfiguration
-    className: ServerCheck
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1123,6 +990,138 @@ ScriptsOnlyBuild:
     assemblyName: sdk_core_ethers.dll
     namespaceName: Web3Unity.Scripts.Library.Ethers.Runtime
     className: Dispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 059c1fec8751a9dcbd8718ab85895fbb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLTransfer1155
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ERC20BalanceOfExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AllErc721Example
+  - hash:
+      serializedVersion: 2
+      Hash: 751d867553f413cde86fe5db0b02780d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e021fae07b7c73933e18725f76623e21
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: af663b717e1a01b9ebb7aa2022377061
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MintWeb3Wallet1155
+  - hash:
+      serializedVersion: 2
+      Hash: df70afff09fcc26f54fe08084e6042ec
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLSendContractExample
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8ff1f65d091f408936ca483a4d75249a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ListNFTWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: afe1800287c9574079eab3fea2622416
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetGasPrice
+  - hash:
+      serializedVersion: 2
+      Hash: 84e24062225beac4d71339f380e0600f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetArray
+  - hash:
+      serializedVersion: 2
+      Hash: 517bc1a90b5762ab1f9f60829c1aa450
+    assemblyName: Assembly-CSharp
+    namespaceName: Web3Unity.Scripts.Prefabs.Minter
+    className: ListNftWebWallet
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: a4d905db69ca7f45f45458ae380fb66f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0e28d8006f33a4c6bf3ef39e20820f9c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLGetBlockNumber
+  - hash:
+      serializedVersion: 2
+      Hash: f4f39b64f410b0cd98b49df4bad0eb7e
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d88802563d0687c7fa705ea3c38a17c6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MintWebGL721
   platform: 20
   scenePathNames:
   - Assets/Web3Unity/Scenes/WebLogin.unity
