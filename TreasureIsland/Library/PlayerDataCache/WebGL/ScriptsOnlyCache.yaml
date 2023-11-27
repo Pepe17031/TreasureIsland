@@ -9,11 +9,13 @@ ScriptsOnlyBuild:
     - LowPolyWater.LowPolyWater
     - ShipController
     - ToggleCanvas
+    - WebGLContractRead
     - WebLogin
     SDKConfiguration.dll:
     - SDKConfiguration.ServerCheck
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -36,6 +38,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
+    sdk_core_ethers.dll:
+    - UnityAsyncAwaitUtil.AsyncCoroutineRunner
   serializedClasses:
     SDKConfiguration:
     - SDKConfiguration.User
@@ -126,6 +130,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18058}
     - Class: 114
+      Script: {instanceID: 18106}
+    - Class: 114
       Script: {instanceID: 18376}
     - Class: 114
       Script: {instanceID: 18704}
@@ -143,7 +149,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 19532}
     - Class: 114
       Script: {instanceID: 19698}
+    - Class: 114
+      Script: {instanceID: 27100}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -1123,6 +1133,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MintWebGL721
+  - hash:
+      serializedVersion: 2
+      Hash: 15e76041c7ed70b005a7ed6b37f3e17b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLContractRead
   platform: 20
   scenePathNames:
   - Assets/WalletConnect.unity
