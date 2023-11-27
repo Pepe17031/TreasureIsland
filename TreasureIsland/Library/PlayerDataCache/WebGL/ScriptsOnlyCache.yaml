@@ -18,8 +18,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -50,9 +52,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: WebLogin
-    methodName: OnSkip
   - assembly: Assembly-CSharp
     fullTypeName: WebLogin
     methodName: OnLogin
@@ -164,7 +163,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Web3Unity/Scenes/WebLogin.unity:
+    Assets/WalletConnect.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -212,6 +211,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1124,6 +1125,6 @@ ScriptsOnlyBuild:
     className: MintWebGL721
   platform: 20
   scenePathNames:
-  - Assets/Web3Unity/Scenes/WebLogin.unity
+  - Assets/WalletConnect.unity
   - Assets/OceanMap/Scenes/OceanMap.unity
   playerPath: C:/TreasureIsland
