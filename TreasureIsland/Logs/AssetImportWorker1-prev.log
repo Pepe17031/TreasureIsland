@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2023.1.9f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
+C:/TreasureIsland/TreasureIsland
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54907
-Successfully changed project path to: C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
-C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
+62765
+Successfully changed project path to: C:/TreasureIsland/TreasureIsland
+C:/TreasureIsland/TreasureIsland
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [67556] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2881744688 [EditorId] 2881744688 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [67724] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1790856540 [EditorId] 1790856540 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [67556] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2881744688 [EditorId] 2881744688 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [67724] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1790856540 [EditorId] 1790856540 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 49.02 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 70.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.9f1 (f3f94c8cdc49)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/pepe1/OneDrive/Рабочий стол/TreasureIsland/TreasureIsland/Assets
+[Subsystems] Discovering subsystems at path C:/TreasureIsland/TreasureIsland/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -87,47 +87,47 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007606 seconds.
-- Loaded All Assemblies, in  0.617 seconds
+Registered in 0.009080 seconds.
+- Loaded All Assemblies, in  0.716 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2216 ms
+Android Extension - Scanning For ADB Devices 498 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  2.673 seconds
-Domain Reload Profiling: 3289ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  1.044 seconds
+Domain Reload Profiling: 1757ms
+	BeginReloadAssembly (244ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (196ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (242ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (232ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (2674ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (302ms)
+				TypeCache.ScanAssembly (276ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1045ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2617ms)
+		SetupLoadedEditorAssemblies (970ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2350ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (672ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (9ms)
 			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -148,77 +148,225 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.295 seconds
-Refreshing native plugins compatible for Editor in 13.58 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.248 seconds
+Refreshing native plugins compatible for Editor in 12.14 ms, found 0 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Cancelling DisplayDialog: Web3.Unity For Web3.Unity to fully work on a WebGL build you need to install a WebGLThreadingPatcher, this will make sure async operations can run to completion.
+Install WebGLThreadingPatcher?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
+WebGLThreadPatcherInstaller:TryInstallThreadPatcher () (at ./Library/PackageCache/io.chainsafe.web3-unity@2.5.4/Editor/WebGLThreadPatcherInstaller.cs:47)
+WebGLThreadPatcherInstaller:.cctor () (at ./Library/PackageCache/io.chainsafe.web3-unity@2.5.4/Editor/WebGLThreadPatcherInstaller.cs:27)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/io.chainsafe.web3-unity@2.5.4/Editor/WebGLThreadPatcherInstaller.cs line 47]
+
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
+  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
+  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
+  at SceneIndexer..cctor () [0x00000] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 2092ms
-	BeginReloadAssembly (296ms)
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1991ms
+	BeginReloadAssembly (353ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (891ms)
-		LoadAssemblies (453ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (748ms)
+		LoadAssemblies (426ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (536ms)
-			TypeCache.Refresh (514ms)
-				TypeCache.ScanAssembly (491ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (802ms)
+		AnalyzeDomain (439ms)
+			TypeCache.Refresh (427ms)
+				TypeCache.ScanAssembly (406ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (749ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (510ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (427ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (362ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 15.61 ms, found 3 plugins.
+Script is not up to date after domain reload: guid(18543dd6e7582094f8d121f88fb2ae5d) path("Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples/Libraries/zxing.unity.dll") state(2)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 15.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 118 unused Assets / (76.9 KB). Loaded Objects now: 3777.
-Memory consumption went from 146.5 MB to 146.5 MB.
-Total: 5.158300 ms (FindLiveObjects: 0.408900 ms CreateObjectMapping: 0.439500 ms MarkObjects: 4.143100 ms  DeleteObjects: 0.165000 ms)
+Unloading 1365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (58.4 KB). Loaded Objects now: 1877.
+Memory consumption went from 100.4 MB to 100.3 MB.
+Total: 4.916500 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.112600 ms MarkObjects: 4.475700 ms  DeleteObjects: 0.155900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/GetListedCollections.cs:  -> cfbbdf3952f431aa4c18c64eac0e7244
+  custom:scripting/precompiled-assembly-types:Samples:  -> aba0eba3259662c9bc404cc9cefb7e0c
+  custom:scripting/monoscript/fileName/GelatoDisableContent.cs:  -> cb451bdbac1897c15c47328e04618f50
+  custom:scripting/monoscript/fileName/PlayerData.cs:  -> d36e47d904e725bd54d032fbec4178df
+  custom:scripting/precompiled-assembly-types:zxing.unity:  -> 878697473aa187557bc56e86170d80ce
+  custom:scripting/monoscript/fileName/SelectAssetInEditor.cs:  -> a55b09946536ecba30c17c2fc5821274
+  custom:scripting/monoscript/fileName/Login.cs:  -> c0f1bc57827028a5fc6549a384f19355
+  custom:scripting/monoscript/fileName/Erc721Calls.cs:  -> afd043d81a95ae27620fce2817001b1d
+  custom:scripting/monoscript/fileName/SceneIndexer.cs:  -> 82ae3f6d9125fb62064f4a93dbdb5e8e
+  custom:scripting/monoscript/fileName/AccountLabel.cs:  -> dc501e86a3bb13e3a4e7137ec6bc7120
+  custom:scripting/monoscript/fileName/ErrorPopup.cs:  -> c824ac3c265a10b64c61cffe3d749785
+  custom:scripting/monoscript/fileName/ListCollections.cs:  -> 6e9325eb8d8a8eea31660b23ef9b3915
+  custom:scripting/monoscript/fileName/WalletConnectModal.cs:  -> 71d5442174cfcbbc496cc29de17a241e
+  custom:scripting/monoscript/fileName/Erc1155Calls.cs:  -> 5f5a6cebdfe4c7ee69ffe80352dabd1f
+  custom:scripting/monoscript/fileName/SampleBehaviour.cs:  -> 5b9eabf3c325ee98311cba5072433446
+  custom:scripting/monoscript/fileName/HexBigIntUtil.cs:  -> dbc9ffa08441c087267d5d7ac450fd78
+  custom:scripting/monoscript/fileName/Logout.cs:  -> 37ca15132d8f59140ae7bb6495c88118
+  custom:scripting/monoscript/fileName/SampleOutputUtil.cs:  -> c75c393308466c7333bc442abd5d0e36
+  custom:scripting/monoscript/fileName/EvmCalls.cs:  -> 18eee9491bb0f121f209f5efa2d243b4
+  custom:scripting/monoscript/fileName/ListNft.cs:  -> 154c4be13816fbc7c7764e1500a79dda
+  custom:scripting/monoscript/fileName/Erc20Calls.cs:  -> fe90bde42c6196f691c1c02158dce944
+  custom:scripting/monoscript/fileName/SampleFeedback.cs:  -> 65acdbc54b5523667ce327c27b77cc17
+  custom:scripting/monoscript/fileName/CreateApproval.cs:  -> 4ca23f13aeec853c9c1c89258748b699
+  custom:scripting/monoscript/fileName/ExistingWalletLogin.cs:  -> 7b40a5239bddaeefb0373fe3d30f7ae7
+  custom:scripting/monoscript/fileName/GelatoCalls.cs:  -> c7ced63e20865df5be3dc2961078b1f7
+  custom:scripting/monoscript/fileName/GetListedNFT.cs:  -> 0559d81d228974d30961708cbc61e8af
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.123 seconds
+Refreshing native plugins compatible for Editor in 12.06 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
+  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
+  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
+  at SceneIndexer..cctor () [0x00000] in C:\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1874ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (457ms)
+			TypeCache.Refresh (454ms)
+				TypeCache.ScanAssembly (433ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 14.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (59.8 KB). Loaded Objects now: 1878.
+Memory consumption went from 98.6 MB to 98.5 MB.
+Total: 6.136800 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.141700 ms MarkObjects: 5.652900 ms  DeleteObjects: 0.146500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 568167.772816 seconds.
-  path: Assets/WebGLTemplates/Web3GL-MetaMask
-  artifactKey: Guid(51b95f3c6a49c324fbe02784d3974923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WebGLTemplates/Web3GL-MetaMask using Guid(51b95f3c6a49c324fbe02784d3974923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780bc31dfb01f423a3a4cb101b911e86') in 0.003669 seconds
+  Time since last request: 159146.627100 seconds.
+  path: Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples
+  artifactKey: Guid(b6e0c1d96029b1f4880b6626c5dede9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples using Guid(b6e0c1d96029b1f4880b6626c5dede9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3149b0224ce6a009c736d9f93843320') in 0.007736 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -236,103 +384,68 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.098 seconds
-Refreshing native plugins compatible for Editor in 14.87 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 0 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'SceneIndexer' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-   --- End of inner exception stack trace ---
-  at Web3AuthSceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK Web3Auth\2.5.2\Web3.Unity Web3Auth Samples\Scripts\Utilities\Web3AuthSceneIndexer.cs:16 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.918 seconds
-Domain Reload Profiling: 2011ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (792ms)
-		LoadAssemblies (414ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (295ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (473ms)
-			TypeCache.Refresh (458ms)
-				TypeCache.ScanAssembly (438ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (918ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (584ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (401ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (258ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (153ms)
 			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 17.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 110 unused Assets / (79.0 KB). Loaded Objects now: 3804.
-Memory consumption went from 142.1 MB to 142.1 MB.
-Total: 4.278800 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.405800 ms MarkObjects: 3.405800 ms  DeleteObjects: 0.138000 ms)
+Unloading 1220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (55.2 KB). Loaded Objects now: 1818.
+Memory consumption went from 91.5 MB to 91.4 MB.
+Total: 5.163300 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.045300 ms MarkObjects: 4.835600 ms  DeleteObjects: 0.153100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -348,536 +461,89 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.134 seconds
-Refreshing native plugins compatible for Editor in 15.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 0 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
+ProjectID Not Valid! Please Go To Dashboard.Gaming.Chainsafe.io To Get A New ProjectID
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
+Startup:.cctor () (at Assets/Plugins/Web3/Web3/GameRegistration.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-System.TypeInitializationException: The type initializer for 'SceneIndexer' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-   --- End of inner exception stack trace ---
-  at Web3AuthSceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK Web3Auth\2.5.2\Web3.Unity Web3Auth Samples\Scripts\Utilities\Web3AuthSceneIndexer.cs:16 
+(Filename: Assets/Plugins/Web3/Web3/GameRegistration.cs Line: 13)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Treasure Island
+ExecuteMenuItem failed because there is no menu named 'Window/ChainSafeServerSettings'
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
+UnityEditor.EditorApplication:ExecuteMenuItem (string)
+Startup:.cctor () (at Assets/Plugins/Web3/Web3/GameRegistration.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Plugins/Web3/Web3/GameRegistration.cs line 14]
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.994 seconds
-Domain Reload Profiling: 2123ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (841ms)
-		LoadAssemblies (421ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (513ms)
-			TypeCache.Refresh (508ms)
-				TypeCache.ScanAssembly (483ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (994ms)
+	FinalizeReload (707ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 17.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3303 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 110 unused Assets / (79.0 KB). Loaded Objects now: 3805.
-Memory consumption went from 142.3 MB to 142.2 MB.
-Total: 4.603700 ms (FindLiveObjects: 0.336800 ms CreateObjectMapping: 0.423300 ms MarkObjects: 3.682100 ms  DeleteObjects: 0.160400 ms)
-
-Prepare: number of updated asset objects reloaded= 13
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.093 seconds
-Refreshing native plugins compatible for Editor in 18.48 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'SceneIndexer' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-   --- End of inner exception stack trace ---
-  at Web3AuthSceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK Web3Auth\2.5.2\Web3.Unity Web3Auth Samples\Scripts\Utilities\Web3AuthSceneIndexer.cs:16 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.936 seconds
-Domain Reload Profiling: 2025ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (799ms)
-		LoadAssemblies (405ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (485ms)
-			TypeCache.Refresh (477ms)
-				TypeCache.ScanAssembly (453ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (937ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 14.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3303 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 110 unused Assets / (79.0 KB). Loaded Objects now: 3793.
-Memory consumption went from 141.6 MB to 141.5 MB.
-Total: 5.584800 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.408100 ms MarkObjects: 4.600000 ms  DeleteObjects: 0.171900 ms)
+Unloading 1360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (29.5 KB). Loaded Objects now: 1951.
+Memory consumption went from 95.3 MB to 95.3 MB.
+Total: 5.137600 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.131500 ms MarkObjects: 4.761800 ms  DeleteObjects: 0.064300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+Prepare: number of updated asset objects reloaded= 1
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.135 seconds
-Refreshing native plugins compatible for Editor in 16.35 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'SceneIndexer' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-   --- End of inner exception stack trace ---
-  at Web3AuthSceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK Web3Auth\2.5.2\Web3.Unity Web3Auth Samples\Scripts\Utilities\Web3AuthSceneIndexer.cs:16 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.946 seconds
-Domain Reload Profiling: 2074ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (806ms)
-		LoadAssemblies (447ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (462ms)
-			TypeCache.Refresh (456ms)
-				TypeCache.ScanAssembly (433ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (947ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 14.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3303 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 110 unused Assets / (79.1 KB). Loaded Objects now: 3794.
-Memory consumption went from 141.6 MB to 141.5 MB.
-Total: 5.148500 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.390300 ms MarkObjects: 4.180000 ms  DeleteObjects: 0.224800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.114 seconds
-Refreshing native plugins compatible for Editor in 16.16 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'SceneIndexer' threw an exception. ---> System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-   --- End of inner exception stack trace ---
-  at Web3AuthSceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK Web3Auth\2.5.2\Web3.Unity Web3Auth Samples\Scripts\Utilities\Web3AuthSceneIndexer.cs:16 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.981 seconds
-Domain Reload Profiling: 2091ms
-	BeginReloadAssembly (215ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (801ms)
-		LoadAssemblies (409ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (490ms)
-			TypeCache.Refresh (482ms)
-				TypeCache.ScanAssembly (462ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (982ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 16.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3316 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 123 unused Assets / (0.7 MB). Loaded Objects now: 3795.
-Memory consumption went from 145.5 MB to 144.8 MB.
-Total: 5.907100 ms (FindLiveObjects: 0.441000 ms CreateObjectMapping: 0.452400 ms MarkObjects: 4.246800 ms  DeleteObjects: 0.765100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 755.599911 seconds.
-  path: Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples/Scenes/SampleMain/null-texture.png
-  artifactKey: Guid(77252f2f9797c99448360a9fce70e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/web3.unity SDK/2.5.4/Web3.Unity Samples/Scenes/SampleMain/null-texture.png using Guid(77252f2f9797c99448360a9fce70e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41949e760102eb60748d221aa2c01c6') in 0.066389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.062 seconds
-Refreshing native plugins compatible for Editor in 12.17 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: source
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <aaefe8c59ae740868836d2ee0aa0340a>:0 
-  at SceneIndexer.GetPackage (System.String name) [0x0001b] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:64 
-  at SceneIndexer.TryAddEditorBuildSettingsScenes (System.String packageName, System.String sessionKey, System.String[] scenes) [0x00010] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:35 
-  at SceneIndexer..cctor () [0x00000] in C:\Users\pepe1\OneDrive\Рабочий стол\TreasureIsland\TreasureIsland\Assets\Samples\web3.unity SDK\2.5.4\Web3.Unity Samples\Scripts\Utilities\SceneIndexer.cs:21 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.892 seconds
-Domain Reload Profiling: 1950ms
-	BeginReloadAssembly (209ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (762ms)
-		LoadAssemblies (421ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (439ms)
-			TypeCache.Refresh (431ms)
-				TypeCache.ScanAssembly (412ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (892ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 14.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3261 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 142 unused Assets / (0.7 MB). Loaded Objects now: 3764.
-Memory consumption went from 144.3 MB to 143.5 MB.
-Total: 4.828700 ms (FindLiveObjects: 0.326800 ms CreateObjectMapping: 0.327300 ms MarkObjects: 3.581800 ms  DeleteObjects: 0.591300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 

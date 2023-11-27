@@ -15,6 +15,5 @@ MonoBehaviour:
   projectID: 281f0d66-2f75-4b1c-bc93-51fbad74eda7
   chainID: 1001
   chain: Klaytin
-  network: Testnet
-  symbol: KLAY
-  rpc: https://api.baobab.klaytn.net:8651 /
+  network: Baobab Testnet
+  rpc: https://api.baobab.klaytn.net:8651/
