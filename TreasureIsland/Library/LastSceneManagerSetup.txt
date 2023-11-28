@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/OceanMap/Scenes/OceanMap.unity
+- path: Assets/Platformer/Scenes/GameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
