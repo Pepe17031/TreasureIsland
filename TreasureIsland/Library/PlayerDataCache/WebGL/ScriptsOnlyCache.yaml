@@ -5,8 +5,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FPSCapper
     - Floater
-    - GoraTales.RouleteAnmation
     - LowPolyWater.LowPolyWater
+    - RouleteAnmation
+    - RouleteController
     - ShipController
     - ToggleCanvas
     - WebGLContractRead
@@ -40,6 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     sdk_core_ethers.dll:
     - UnityAsyncAwaitUtil.AsyncCoroutineRunner
+    - Web3Unity.Scripts.Library.Ethers.Runtime.Dispatcher
   serializedClasses:
     SDKConfiguration:
     - SDKConfiguration.User
@@ -146,11 +148,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19200}
     - Class: 114
+      Script: {instanceID: 19400}
+    - Class: 114
       Script: {instanceID: 19532}
     - Class: 114
       Script: {instanceID: 19698}
     - Class: 114
       Script: {instanceID: 27100}
+    - Class: 114
+      Script: {instanceID: 82576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -867,7 +873,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 396ffd8b9fbf357d8932c617c67ff270
     assemblyName: Assembly-CSharp
-    namespaceName: GoraTales
+    namespaceName: 
     className: RouleteAnmation
   - hash:
       serializedVersion: 2
@@ -1139,6 +1145,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WebGLContractRead
+  - hash:
+      serializedVersion: 2
+      Hash: e8fadebecc9ead28b9dbf23f258048fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RouleteController
   platform: 20
   scenePathNames:
   - Assets/WalletConnect.unity

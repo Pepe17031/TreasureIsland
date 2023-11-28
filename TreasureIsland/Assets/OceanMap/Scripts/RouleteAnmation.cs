@@ -2,8 +2,7 @@ using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace GoraTales
-{
+
     [RequireComponent(typeof(SpriteRenderer))]
     public class RouleteAnmation : MonoBehaviour
     {
@@ -16,28 +15,14 @@ namespace GoraTales
         float _nextFrameTime;
         bool _isOn = true;
 
-        private void Start()
+        void Start()
         {
             _renderer = GetComponent<SpriteRenderer>();
             _secondsPerFrame = 1f / _frameRate; // Частота кадров
             _nextFrameTime = Time.time + _secondsPerFrame; //Время следующего кадра
+            
         }
-
-        void OnEnable()
-        {
-            _secondsPerFrame = 1f / _frameRate; // Частота кадров
-            _nextFrameTime = Time.time + _secondsPerFrame; // Время следующего кадра
-
-            // Запускаем корутину, чтобы вызвать StopAnination через 3 секунды
-            StartCoroutine(DelayedStopAnimation());
-        }
-
-        IEnumerator DelayedStopAnimation()
-        {
-            yield return new WaitForSeconds(3f);
-            StopAnination(Random.Range(0, _sprites.Length));
-        }
-
+        // OnEnable Start duplicate
         void Update()
         {
             if (_nextFrameTime > Time.time) return; //Если вреям не пришло выход
@@ -57,5 +42,4 @@ namespace GoraTales
         }
 
     }
-
-}
+    
