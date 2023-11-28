@@ -15,12 +15,19 @@ public class RouleteController : MonoBehaviour
     public GameObject ParticlePrefab; // Предполагается, что у вас есть префаб для дочернего объекта
     public GameObject deletable; // Предполагается, что у вас есть префаб для дочернего объекта
 
+    public AudioSource _spinBip;
+    public AudioSource _spinLose;
+    public GameObject _enterButton; // Предполагается, что у вас есть префаб для дочернего объекта
+
+
     private async void Start()
     {
+        _enterButton.SetActive(false);
         WebGLContractRead contractScript = FindFirstObjectByType<WebGLContractRead>();
         if (contractScript != null)
         {
             deletable.gameObject.SetActive(false);
+            _spinBip.Play();
             await contractScript.GetRndValue(); // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             int[] result = await contractScript.CheckVariable();
             rouleteAnimation1.StopAnination(result[0]); // Замените 2 на нужное вам значение
@@ -28,7 +35,7 @@ public class RouleteController : MonoBehaviour
             rouleteAnimation3.StopAnination(result[2]); // Замените 2 на нужное вам значение
             if (result[0] == result[1])
             {
-                //islandTransform.Rotate(0f, 0f, 180f);
+                _spinBip.Stop();
 
                 GameObject particleobj = Instantiate(ParticlePrefab, islandTransform.position, Quaternion.identity);
                 particleobj.transform.parent = islandTransform;
@@ -37,6 +44,8 @@ public class RouleteController : MonoBehaviour
 
 
                 Debug.Log("You Win!");
+                _enterButton.SetActive(true);
+
                 if (result[0] == 1)
                 {
                     GameObject winObject = Instantiate(minwinObjectPrefab, islandTransform.position, Quaternion.identity);
@@ -59,10 +68,12 @@ public class RouleteController : MonoBehaviour
             }
             else
             {
+                _spinBip.Stop();
+
                 Debug.Log("You Lose!");
                 //islandTransform.Rotate(0f, 0f, 180f);
                 deletable.gameObject.SetActive(false);
-
+                _spinLose.Play();
 
                 GameObject loseObject = Instantiate(loseObjectPrefab, islandTransform.position, Quaternion.identity);
                 loseObject.transform.parent = islandTransform;

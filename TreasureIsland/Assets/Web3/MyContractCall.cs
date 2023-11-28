@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using TMPro;
 using Web3Unity.Scripts.Library.Ethers.Providers;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 #if UNITY_WEBGL
@@ -69,6 +70,12 @@ public class WebGLContractRead : MonoBehaviour
         string response = await Web3GL.SendContract(method, contractAbi, contractAddress, args, "1000000000000000000", "300000", "");
         // display response in game
         print("Please check the contract variable again in a few seconds once the chain has processed the request!");
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene("Platformer");
+
     }
 }
 #endif

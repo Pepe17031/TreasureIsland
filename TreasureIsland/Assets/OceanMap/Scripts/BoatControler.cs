@@ -10,10 +10,14 @@ public class ShipController : MonoBehaviour
     
     public float forwardSpeed = 10f; // Полная скорость вперед
     public float turnForwardSpeedMultiplier = 3f; // Скорость вперед при повороте
-    
+    public AudioSource _audio1;
+    public AudioSource _audio2;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>(); // Получаем компонент Rigidbody
+        _audio1.volume = 0.1f;
+        _audio2.volume = 0.1f;
     }
 
     void Update()
@@ -55,12 +59,28 @@ public class ShipController : MonoBehaviour
 
             // Применение не полной скорости вперед
             rb.AddForce(new Vector3(dir.x, 0f, dir.z).normalized * turnForwardSpeedMultiplier * forwardSpeed, ForceMode.VelocityChange); 
+
+            if (_audio1.volume < 0.6f)
+            {
+                _audio1.volume = _audio1.volume + 0.05f;
+            }
+            if (_audio2.volume < 0.4f)
+            {
+                _audio2.volume = _audio2.volume + 0.05f;
+            }
+
         }
         
         else
         {
             // Остановить линейное движение
             rb.velocity = Vector3.zero;
+            if (_audio1.volume > 0.05f)
+            {
+                _audio1.volume = _audio1.volume - 0.05f;
+                _audio2.volume = _audio2.volume - 0.05f;
+            }
+            
 
             // Остановить вращение
             rb.angularVelocity = Vector3.zero;

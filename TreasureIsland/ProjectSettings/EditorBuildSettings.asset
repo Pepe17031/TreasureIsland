@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OceanMap/Scenes/OceanMap.unity
     guid: 69405616d26f4444888913ed7541c930
+  - enabled: 1
+    path: Assets/Platformer.unity
+    guid: e7f309cc0c1fa2749a50762b459002ba
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
