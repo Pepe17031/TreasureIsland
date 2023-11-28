@@ -22,8 +22,8 @@ public class WebGLContractRead : MonoBehaviour
     {
         var provider = new JsonRpcProvider("https://api.baobab.klaytn.net:8651/");
         string account = PlayerPrefs.GetString("Account");
-        //var balance = await provider.GetBalance(account.ToString()); // ЗАМЕНИТЬ АДРЕСС 41622629575000000000
-        HexBigInteger  balance = await provider.GetBalance("0x89195F66d351f9deD420632edd174940E692b3ee"); // ЗАМЕНИТЬ АДРЕСС 41622629575000000000
+        //var balance = await provider.GetBalance(account.ToString()); // // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        HexBigInteger  balance = await provider.GetBalance("0x89195F66d351f9deD420632edd174940E692b3ee"); 
         string balancestring = balance.ToString().Substring(0, balance.ToString().Length - 18);
 
         _balance.text = balancestring + " KLAY";
