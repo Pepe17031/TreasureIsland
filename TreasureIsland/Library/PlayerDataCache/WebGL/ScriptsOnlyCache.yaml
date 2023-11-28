@@ -160,6 +160,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: WebGLContractRead
+    methodName: LoadOceanScene
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -193,21 +196,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
     methodName: LoadScene
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnHeroInVision
@@ -221,17 +209,8 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnDie
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.MobAi
-    methodName: OnHeroInVision
-  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ModifyHealtComponent
     methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Creature
-    methodName: TakeDamage
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.MobAi
-    methodName: OnDie
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DoInteractionComponent
     methodName: DoInteraction
@@ -269,8 +248,17 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnDie
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.SpriteAnimation
-    methodName: SetClip
+    fullTypeName: GoraTales.Creatures.MobAi
+    methodName: OnHeroInVision
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Creature
+    methodName: TakeDamage
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.MobAi
+    methodName: OnDie
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.SpriteAnimation
     methodName: SetClip
@@ -281,11 +269,41 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Components.SpawnComponent
     methodName: Spawn
   - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.SpriteAnimation
+    methodName: SetClip
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.SpawnComponent
+    methodName: Spawn
+  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -781,7 +799,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1cd85522baef6cc268bbe276e51c87ad
+      Hash: 201901681c324ed1ef7b506c3544f678
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AIDialogue

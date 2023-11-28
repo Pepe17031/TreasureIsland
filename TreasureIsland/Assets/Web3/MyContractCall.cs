@@ -24,10 +24,13 @@ public class WebGLContractRead : MonoBehaviour
         var provider = new JsonRpcProvider("https://api.baobab.klaytn.net:8651/");
         string account = PlayerPrefs.GetString("Account");
         //HexBigInteger balance = await provider.GetBalance(account.ToString()); // // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        HexBigInteger balance = await provider.GetBalance("0x89195F66d351f9deD420632edd174940E692b3ee"); 
-        string balancestring = balance.ToString().Substring(0, balance.ToString().Length - 18);
-
-        _balance.text = balancestring + " KLAY";
+        HexBigInteger balance = await provider.GetBalance("0x89195F66d351f9deD420632edd174940E692b3ee");
+        string balancestring = "";
+        balancestring = balance.ToString().Substring(0, balance.ToString().Length - 18);
+        if (balancestring != "")
+        {
+            _balance.text = balancestring + " KLAY";
+        }
     }
 
     async public Task<int[]> CheckVariable()
@@ -87,6 +90,11 @@ public class WebGLContractRead : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("GameScene");
+
+    }
+    public void LoadOceanScene()
+    {
+        SceneManager.LoadScene("OceanMap");
 
     }
 }
