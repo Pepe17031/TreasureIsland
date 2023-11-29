@@ -1,1 +1,1 @@
-/Treasure Island/ - Unity Assets
+/TreasureIsland/ - Unity Assets
