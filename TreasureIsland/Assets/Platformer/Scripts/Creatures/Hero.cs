@@ -49,7 +49,7 @@ namespace GoraTales.Creatures
         protected override void Update()
         {
             base.Update();
-            _coinsText.text = _coins.ToString() + "$ KLAY";
+            _coinsText.text = _coins.ToString() + "$";
             if (_wallCheck.IsTouchingLayer && Direction.x == transform.localScale.x)
             {
                 _isOnWall = true;
