@@ -48,7 +48,8 @@ public class WebGLContractRead : MonoBehaviour
 
         if (result == 1)
         {
-            Depth();
+            SceneManager.LoadScene("Die");
+            Debug.Log("You Die!");
         } else if (result == 2)
         {
             SceneManager.LoadScene("ComingSoon");
@@ -59,12 +60,7 @@ public class WebGLContractRead : MonoBehaviour
             Debug.Log("Logic Error");
         }
     }
-
-    private void Depth()
-    {
-        SceneManager.LoadScene("Die");
-        Debug.Log("You Die!");
-    }
+    
 
     async public Task<int[]> CheckVariable()
     {

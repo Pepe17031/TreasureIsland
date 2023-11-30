@@ -57,7 +57,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridBrushPickStore
-    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -219,96 +218,6 @@ ScriptsOnlyBuild:
     fullTypeName: WebGLContractRead
     methodName: LoadScene
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.MobAi
-    methodName: OnHeroInVision
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Creature
-    methodName: TakeDamage
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.MobAi
-    methodName: OnDie
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
   - assembly: UnityEngine.CoreModule
@@ -336,11 +245,53 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnDie
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ModifyHealtComponent
     methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -411,6 +362,54 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.HeroInputReader
     methodName: OnAttack
   - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.MobAi
+    methodName: OnHeroInVision
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Creature
+    methodName: TakeDamage
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.MobAi
+    methodName: OnDie
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
+  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ModifyHealtComponent
     methodName: Apply
   - assembly: Assembly-CSharp
@@ -516,6 +515,15 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.Hero
     methodName: AddCoins
   - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.SpriteAnimation
+    methodName: SetClip
+  - assembly: Assembly-CSharp
+    fullTypeName: ObjectCloner
+    methodName: CloneObject
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.SpriteAnimation
+    methodName: SetClip
+  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
   - assembly: UnityEngine.CoreModule
@@ -530,15 +538,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Creatures.Hero
     methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.SpriteAnimation
-    methodName: SetClip
-  - assembly: Assembly-CSharp
-    fullTypeName: ObjectCloner
-    methodName: CloneObject
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.SpriteAnimation
-    methodName: SetClip
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -568,16 +567,13 @@ ScriptsOnlyBuild:
     methodName: DestroyObject
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
-    methodName: LoadOceanScene
-  - assembly: Assembly-CSharp
-    fullTypeName: WebGLContractRead
     methodName: GetMoney
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
-    methodName: RiskGame
+    methodName: LoadOceanScene
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
-    methodName: LoadOceanScene
+    methodName: RiskGame
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ReloadLevelComponent
     methodName: Reload
@@ -752,15 +748,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17164}
     - Class: 114
-      Script: {instanceID: 17486}
-    - Class: 114
       Script: {instanceID: 18420}
     - Class: 114
       Script: {instanceID: 18644}
     - Class: 114
       Script: {instanceID: 21592}
-    - Class: 114
-      Script: {instanceID: 22546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
