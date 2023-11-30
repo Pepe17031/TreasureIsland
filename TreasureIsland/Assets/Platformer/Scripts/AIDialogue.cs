@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -29,7 +30,7 @@ public class AIDialogue : MonoBehaviour
     {
         _text.gameObject.SetActive(false);
         _bilboard.SetActive(false);
-        var openai = new OpenAIApi("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");
+        var openai = new OpenAIApi("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");
 
         var req = new CreateChatCompletionRequest
         {
@@ -44,11 +45,12 @@ public class AIDialogue : MonoBehaviour
             },
             Temperature = 0.7f,
         };
-
         openai.CreateChatCompletionAsync(req,
             (responses) => {
+
                 _text.gameObject.SetActive(true);
                 _bilboard.gameObject.SetActive(true);
+
                 var result = string.Join("", responses.Select(response => response.Choices[0].Delta.Content));
                 _text.text = result;
 
@@ -59,12 +61,13 @@ public class AIDialogue : MonoBehaviour
             },
             new CancellationTokenSource()
         );
+        
     }
     async public void Die()
     {
         _text.gameObject.SetActive(false);
         _bilboard.SetActive(false);
-        var openai = new OpenAIApi("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");
+        var openai = new OpenAIApi("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");
 
         var req = new CreateChatCompletionRequest
         {
