@@ -55,6 +55,7 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.PixelPerfectCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridBrushPickStore
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -86,10 +87,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -168,18 +167,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.UI.AnimatedWindow
     methodName: Close
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
     methodName: LoadOceanScene
@@ -201,6 +188,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
     methodName: LoadScene
@@ -216,6 +215,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: WebGLContractRead
     methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -234,36 +248,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ModifyHealtComponent
     methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnHeroInVision
@@ -277,89 +261,23 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnDie
   - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.ModifyHealtComponent
     methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.ModifyHealtComponent
-    methodName: Apply
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Components.DestriyObjectComponent
-    methodName: DestroyObject
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Renderer
-    methodName: set_enabled
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.Creatures.Hero
-    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -442,14 +360,20 @@ ScriptsOnlyBuild:
     fullTypeName: GoraTales.Creatures.Hero
     methodName: AddCoins
   - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.SpriteAnimation
-    methodName: SetClip
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
-    fullTypeName: ObjectCloner
-    methodName: CloneObject
-  - assembly: Assembly-CSharp
-    fullTypeName: GoraTales.SpriteAnimation
-    methodName: SetClip
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -465,6 +389,57 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Creatures.Hero
     methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.ModifyHealtComponent
+    methodName: Apply
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -522,6 +497,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Creatures.MobAi
     methodName: OnDie
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Components.DestriyObjectComponent
+    methodName: DestroyObject
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_enabled
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.Creatures.Hero
+    methodName: AddCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.SpriteAnimation
+    methodName: SetClip
+  - assembly: Assembly-CSharp
+    fullTypeName: ObjectCloner
+    methodName: CloneObject
+  - assembly: Assembly-CSharp
+    fullTypeName: GoraTales.SpriteAnimation
+    methodName: SetClip
   - assembly: Assembly-CSharp
     fullTypeName: GoraTales.Components.DestriyObjectComponent
     methodName: DestroyObject
@@ -620,35 +619,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17164}
     - Class: 114
-      Script: {instanceID: 17214}
+      Script: {instanceID: 17216}
     - Class: 114
-      Script: {instanceID: 17870}
+      Script: {instanceID: 17892}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 18114}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 18910}
+      Script: {instanceID: 18562}
     - Class: 114
-      Script: {instanceID: 20058}
+      Script: {instanceID: 18644}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 18968}
     - Class: 114
-      Script: {instanceID: 22012}
+      Script: {instanceID: 20140}
     - Class: 114
-      Script: {instanceID: 22290}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 22370}
+      Script: {instanceID: 22170}
     - Class: 114
-      Script: {instanceID: 23996}
+      Script: {instanceID: 22178}
     - Class: 114
-      Script: {instanceID: 24552}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 22546}
     - Class: 114
-      Script: {instanceID: 24824}
+      Script: {instanceID: 22998}
     - Class: 114
-      Script: {instanceID: 25024}
+      Script: {instanceID: 24244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -699,13 +698,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17164}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18644}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 22370}
+      Script: {instanceID: 22546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -750,15 +749,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17164}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 17486}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 18644}
     - Class: 114
-      Script: {instanceID: 22370}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 24864}
+      Script: {instanceID: 22546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -827,91 +826,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17164}
     - Class: 114
-      Script: {instanceID: 17214}
+      Script: {instanceID: 17216}
     - Class: 114
-      Script: {instanceID: 17218}
+      Script: {instanceID: 17220}
     - Class: 114
-      Script: {instanceID: 18320}
+      Script: {instanceID: 17280}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 17486}
     - Class: 114
-      Script: {instanceID: 18466}
+      Script: {instanceID: 17870}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18350}
     - Class: 114
-      Script: {instanceID: 18910}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 19190}
+      Script: {instanceID: 18496}
     - Class: 114
-      Script: {instanceID: 19376}
+      Script: {instanceID: 18562}
     - Class: 114
-      Script: {instanceID: 19620}
+      Script: {instanceID: 18636}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 18644}
     - Class: 114
-      Script: {instanceID: 21764}
+      Script: {instanceID: 18804}
     - Class: 114
-      Script: {instanceID: 21808}
+      Script: {instanceID: 18818}
     - Class: 114
-      Script: {instanceID: 22778}
+      Script: {instanceID: 18968}
     - Class: 114
-      Script: {instanceID: 23538}
+      Script: {instanceID: 19256}
     - Class: 114
-      Script: {instanceID: 23834}
+      Script: {instanceID: 19444}
     - Class: 114
-      Script: {instanceID: 24500}
+      Script: {instanceID: 19694}
     - Class: 114
-      Script: {instanceID: 24508}
+      Script: {instanceID: 19750}
     - Class: 114
-      Script: {instanceID: 24512}
+      Script: {instanceID: 19916}
     - Class: 114
-      Script: {instanceID: 24520}
+      Script: {instanceID: 20668}
     - Class: 114
-      Script: {instanceID: 24532}
+      Script: {instanceID: 20746}
     - Class: 114
-      Script: {instanceID: 24548}
+      Script: {instanceID: 20814}
     - Class: 114
-      Script: {instanceID: 24552}
+      Script: {instanceID: 20962}
     - Class: 114
-      Script: {instanceID: 24560}
+      Script: {instanceID: 21226}
     - Class: 114
-      Script: {instanceID: 24600}
+      Script: {instanceID: 21392}
     - Class: 114
-      Script: {instanceID: 24644}
+      Script: {instanceID: 21494}
     - Class: 114
-      Script: {instanceID: 24656}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 24700}
+      Script: {instanceID: 21736}
     - Class: 114
-      Script: {instanceID: 24716}
+      Script: {instanceID: 21920}
     - Class: 114
-      Script: {instanceID: 24720}
+      Script: {instanceID: 21942}
     - Class: 114
-      Script: {instanceID: 24744}
+      Script: {instanceID: 21966}
     - Class: 114
-      Script: {instanceID: 24768}
+      Script: {instanceID: 22136}
     - Class: 114
-      Script: {instanceID: 24788}
+      Script: {instanceID: 22558}
     - Class: 114
-      Script: {instanceID: 24864}
+      Script: {instanceID: 22624}
     - Class: 114
-      Script: {instanceID: 24880}
+      Script: {instanceID: 22940}
     - Class: 114
-      Script: {instanceID: 24896}
+      Script: {instanceID: 22976}
     - Class: 114
-      Script: {instanceID: 24904}
+      Script: {instanceID: 23564}
     - Class: 114
-      Script: {instanceID: 24908}
+      Script: {instanceID: 23718}
     - Class: 114
-      Script: {instanceID: 24968}
+      Script: {instanceID: 23768}
     - Class: 114
-      Script: {instanceID: 24976}
+      Script: {instanceID: 23894}
     - Class: 114
-      Script: {instanceID: 24984}
+      Script: {instanceID: 23954}
     - Class: 114
-      Script: {instanceID: 25004}
+      Script: {instanceID: 24080}
     - Class: 114
-      Script: {instanceID: 25012}
+      Script: {instanceID: 24468}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -982,27 +981,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17168}
     - Class: 114
-      Script: {instanceID: 17214}
+      Script: {instanceID: 17216}
     - Class: 114
-      Script: {instanceID: 17892}
+      Script: {instanceID: 17914}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 18414}
+      Script: {instanceID: 18444}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18644}
     - Class: 114
-      Script: {instanceID: 18910}
+      Script: {instanceID: 18968}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 20452}
     - Class: 114
-      Script: {instanceID: 22370}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 24516}
+      Script: {instanceID: 22494}
     - Class: 114
-      Script: {instanceID: 24780}
+      Script: {instanceID: 22546}
     - Class: 114
-      Script: {instanceID: 24912}
+      Script: {instanceID: 24394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1068,6 +1067,12 @@ ScriptsOnlyBuild:
     className: ERC721URIExample
   - hash:
       serializedVersion: 2
+      Hash: c56ed7f11fb1bc52fa80c352dbdbc7ec
+    assemblyName: Assembly-CSharp
+    namespaceName: Cainos.PixelArtPlatformer_VillageProps
+    className: MovingPlatform
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1122,6 +1127,12 @@ ScriptsOnlyBuild:
     className: ERC721OwnerOfExample
   - hash:
       serializedVersion: 2
+      Hash: 2a828c67933d3f116c16f74579e04c7e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameRNDController
+  - hash:
+      serializedVersion: 2
       Hash: 427ce58f85d61a43b5562bce31fca74c
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.HID.Editor
@@ -1144,6 +1155,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d29e05cf59a575bb2efa08dcf0aa4ca7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AIDialogue
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1198,6 +1215,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef1abc7710c3d62a347de8b6acbb2c2
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Creatures
+    className: Creature
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1288,6 +1311,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 5596713fcc39612bed052b759183345d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShipController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1386,10 +1415,22 @@ ScriptsOnlyBuild:
     className: RuleOverrideTile
   - hash:
       serializedVersion: 2
+      Hash: 15e76041c7ed70b005a7ed6b37f3e17b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebGLContractRead
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 12f730b68625e8ce41f871afda00d2ba
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: DestriyObjectComponent
   - hash:
       serializedVersion: 2
       Hash: 6498fc76484598db46c5c1a11bab42fa
@@ -1452,10 +1493,22 @@ ScriptsOnlyBuild:
     className: WebGLTransfer1155
   - hash:
       serializedVersion: 2
+      Hash: b3cce541169aff801f5a7a7f26031304
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales
+    className: CheckCircleOverlap
+  - hash:
+      serializedVersion: 2
       Hash: 692a2b1df25f6c1c4df8be71d3725bf7
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 2b46d4a86b59758fdd7691d30c8594cb
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales
+    className: LayerCheck
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1614,6 +1667,12 @@ ScriptsOnlyBuild:
     className: Web3WalletGetGasPrice
   - hash:
       serializedVersion: 2
+      Hash: 396ffd8b9fbf357d8932c617c67ff270
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales
+    className: RouleteAnmation
+  - hash:
+      serializedVersion: 2
       Hash: a9340df851e094f0e1a209d8b81aaedc
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
@@ -1650,6 +1709,12 @@ ScriptsOnlyBuild:
     className: CinemachineIndependentImpulseListener
   - hash:
       serializedVersion: 2
+      Hash: 09b44b218045f541f662d37e0ff2d2a5
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Creatures
+    className: Hero
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1678,6 +1743,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 09b7a2afe84060f9c78d37244f4ef07b
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Creatures
+    className: HeroInputReader
   - hash:
       serializedVersion: 2
       Hash: ecdf59ccb9fea48446a1001b16317c55
@@ -1836,6 +1907,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b4cad2be67ba1f7e93302be25a7c70bd
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.UI.Wigets
+    className: CustomButton
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1886,6 +1963,12 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: DoInteractionComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
     namespaceName: 
     className: ERC20BalanceOfExample
   - hash:
@@ -1894,6 +1977,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AllErc721Example
+  - hash:
+      serializedVersion: 2
+      Hash: 91e43b12ef592fdbee76b6f05ce94dfd
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: SpawnComponent
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1908,10 +1997,22 @@ ScriptsOnlyBuild:
     className: WebGLGetGasPrice
   - hash:
       serializedVersion: 2
+      Hash: 6d13403e1657df5d04ee13a08cabb67f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObjectCloner
+  - hash:
+      serializedVersion: 2
       Hash: 84e24062225beac4d71339f380e0600f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WebGLGetArray
+  - hash:
+      serializedVersion: 2
+      Hash: a64de8f40251ade26c87c6b1d2cdf35f
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: SitchComponent
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1960,6 +2061,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WebGLGetBlockNumber
+  - hash:
+      serializedVersion: 2
+      Hash: 8332e4c46781debc8f9cf7a36f78736e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIController
+  - hash:
+      serializedVersion: 2
+      Hash: ac4dba2cbbcfb0b90d11d2580cab9c87
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SnowController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2070,6 +2183,12 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: d2ac265e577eb548cb331046909818eb
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: EnterCollisionComponent
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2100,6 +2219,12 @@ ScriptsOnlyBuild:
     className: WalletLogin
   - hash:
       serializedVersion: 2
+      Hash: a1962729762d93eb0076ecdf53645226
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Creatures
+    className: PointPatrol
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2116,6 +2241,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Web3WalletEvent
+  - hash:
+      serializedVersion: 2
+      Hash: d4bdf7dbb8e7b8273c6d52a6a8ec2232
+    assemblyName: Assembly-CSharp
+    namespaceName: Cainos.PixelArtPlatformer_VillageProps
+    className: BoundingPlatform
   - hash:
       serializedVersion: 2
       Hash: d6f83bb917df45d91ae1716a0b084fa3
@@ -2146,6 +2277,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WebGLGetNonce
+  - hash:
+      serializedVersion: 2
+      Hash: d2ac265e577eb548cb331046909818eb
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: EnterTriggerComponent
   - hash:
       serializedVersion: 2
       Hash: 12ff18a8e1a2b68a6ff917dab478fa7e
@@ -2208,6 +2345,12 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
+      Hash: 949e745b87c9ef3e15433138e70216b4
+    assemblyName: Assembly-CSharp
+    namespaceName: Cainos.PixelArtPlatformer_VillageProps
+    className: Elevator
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -2262,10 +2405,22 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 26f4835109ed8bbfaae916f013b1034c
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: HealthComponent
+  - hash:
+      serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 396ffd8b9fbf357d8932c617c67ff270
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RouleteAnmation
   - hash:
       serializedVersion: 2
       Hash: 011ae9fec12e1229e73fea33a45acce8
@@ -2317,9 +2472,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.UI.MainMenu
+    className: MainMenuWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dd3efa2df65a5b3cc12711f917ba59d4
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: InteractiveComponent
   - hash:
       serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
@@ -2332,6 +2499,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: ee85ed5c7193d62073fe28b275548b27
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales
+    className: SpriteAnimation
   - hash:
       serializedVersion: 2
       Hash: af663b717e1a01b9ebb7aa2022377061
@@ -2364,6 +2537,12 @@ ScriptsOnlyBuild:
     className: CinemachineImpulseSource
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: ReloadLevelComponent
+  - hash:
+      serializedVersion: 2
       Hash: bd3b93eecbd0fe18d9938dc47570fa20
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -2386,6 +2565,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6995e17d039e24ccfb2837664ddf2284
+    assemblyName: Assembly-CSharp
+    namespaceName: Cainos.PixelArtPlatformer_VillageProps
+    className: Chest
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2436,6 +2621,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 7a9b530e2973c7ffee28cc3a1ed570fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RainController
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -2464,6 +2655,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b36c1bea780989a0485591405c5e9628
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RouleteController
   - hash:
       serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
@@ -2589,6 +2786,12 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
+    className: PrintingText
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
     className: IPFSUploadExample
   - hash:
       serializedVersion: 2
@@ -2602,6 +2805,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: a11cc9ad3ba37763f0bdc936c260a5d8
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: ModifyHealtComponent
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2620,6 +2829,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d9a9b1201bc970ea3ad20617414d10e7
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Creatures
+    className: MobAi
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2670,10 +2885,22 @@ ScriptsOnlyBuild:
     className: CinemachineStoryboard
   - hash:
       serializedVersion: 2
+      Hash: 4eb3189c4ea692e7277398ad9c566e2a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
       Hash: bb1ceaa969c7a364b8c20c5b84add7d9
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3f64bef79e76a5a7227d1f48f81cc176
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components.Audio
+    className: PlaySoundsComponent
   - hash:
       serializedVersion: 2
       Hash: 1133fb95b3c9772dd1c11732e037fbd7
@@ -2766,10 +2993,28 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.UI
+    className: AnimatedWindow
+  - hash:
+      serializedVersion: 2
       Hash: fbb610f26ad3eb353953ad47e919401c
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: ArmHeroComponent
+  - hash:
+      serializedVersion: 2
+      Hash: e31712d9aa132c497af3ce139358f9a0
+    assemblyName: Assembly-CSharp
+    namespaceName: GoraTales.Components
+    className: SpawnListComponent
   - hash:
       serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
@@ -2814,6 +3059,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: c13adf70ec9777b05527d1b32edc4c16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StoneFloat
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2824,258 +3075,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 12f730b68625e8ce41f871afda00d2ba
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: DestriyObjectComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: ReloadLevelComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 1ef1abc7710c3d62a347de8b6acbb2c2
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Creatures
-    className: Creature
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.UI
-    className: AnimatedWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 2b46d4a86b59758fdd7691d30c8594cb
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales
-    className: LayerCheck
-  - hash:
-      serializedVersion: 2
-      Hash: 396ffd8b9fbf357d8932c617c67ff270
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales
-    className: RouleteAnmation
-  - hash:
-      serializedVersion: 2
-      Hash: 6d13403e1657df5d04ee13a08cabb67f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ObjectCloner
-  - hash:
-      serializedVersion: 2
-      Hash: a64de8f40251ade26c87c6b1d2cdf35f
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: SitchComponent
-  - hash:
-      serializedVersion: 2
-      Hash: c56ed7f11fb1bc52fa80c352dbdbc7ec
-    assemblyName: Assembly-CSharp
-    namespaceName: Cainos.PixelArtPlatformer_VillageProps
-    className: MovingPlatform
-  - hash:
-      serializedVersion: 2
-      Hash: 15e76041c7ed70b005a7ed6b37f3e17b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebGLContractRead
-  - hash:
-      serializedVersion: 2
-      Hash: d9a9b1201bc970ea3ad20617414d10e7
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Creatures
-    className: MobAi
-  - hash:
-      serializedVersion: 2
-      Hash: 396ffd8b9fbf357d8932c617c67ff270
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RouleteAnmation
-  - hash:
-      serializedVersion: 2
-      Hash: a11cc9ad3ba37763f0bdc936c260a5d8
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: ModifyHealtComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 2a828c67933d3f116c16f74579e04c7e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameRNDController
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: DoInteractionComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 09b7a2afe84060f9c78d37244f4ef07b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Creatures
-    className: HeroInputReader
-  - hash:
-      serializedVersion: 2
-      Hash: 6995e17d039e24ccfb2837664ddf2284
-    assemblyName: Assembly-CSharp
-    namespaceName: Cainos.PixelArtPlatformer_VillageProps
-    className: Chest
-  - hash:
-      serializedVersion: 2
-      Hash: 26f4835109ed8bbfaae916f013b1034c
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: HealthComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 7a9b530e2973c7ffee28cc3a1ed570fb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RainController
-  - hash:
-      serializedVersion: 2
-      Hash: d4bdf7dbb8e7b8273c6d52a6a8ec2232
-    assemblyName: Assembly-CSharp
-    namespaceName: Cainos.PixelArtPlatformer_VillageProps
-    className: BoundingPlatform
-  - hash:
-      serializedVersion: 2
-      Hash: e31712d9aa132c497af3ce139358f9a0
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: SpawnListComponent
-  - hash:
-      serializedVersion: 2
-      Hash: d2ac265e577eb548cb331046909818eb
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: EnterCollisionComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.UI.MainMenu
-    className: MainMenuWindow
-  - hash:
-      serializedVersion: 2
-      Hash: b3cce541169aff801f5a7a7f26031304
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales
-    className: CheckCircleOverlap
-  - hash:
-      serializedVersion: 2
-      Hash: c13adf70ec9777b05527d1b32edc4c16
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StoneFloat
-  - hash:
-      serializedVersion: 2
-      Hash: 5596713fcc39612bed052b759183345d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ShipController
-  - hash:
-      serializedVersion: 2
-      Hash: 8332e4c46781debc8f9cf7a36f78736e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UIController
-  - hash:
-      serializedVersion: 2
-      Hash: d29e05cf59a575bb2efa08dcf0aa4ca7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AIDialogue
-  - hash:
-      serializedVersion: 2
-      Hash: 09b44b218045f541f662d37e0ff2d2a5
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Creatures
-    className: Hero
-  - hash:
-      serializedVersion: 2
-      Hash: 3f64bef79e76a5a7227d1f48f81cc176
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components.Audio
-    className: PlaySoundsComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PrintingText
-  - hash:
-      serializedVersion: 2
-      Hash: d2ac265e577eb548cb331046909818eb
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: EnterTriggerComponent
-  - hash:
-      serializedVersion: 2
-      Hash: ac4dba2cbbcfb0b90d11d2580cab9c87
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SnowController
-  - hash:
-      serializedVersion: 2
-      Hash: b4cad2be67ba1f7e93302be25a7c70bd
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.UI.Wigets
-    className: CustomButton
-  - hash:
-      serializedVersion: 2
-      Hash: 91e43b12ef592fdbee76b6f05ce94dfd
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: SpawnComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 4eb3189c4ea692e7277398ad9c566e2a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FollowTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 949e745b87c9ef3e15433138e70216b4
-    assemblyName: Assembly-CSharp
-    namespaceName: Cainos.PixelArtPlatformer_VillageProps
-    className: Elevator
-  - hash:
-      serializedVersion: 2
-      Hash: dd3efa2df65a5b3cc12711f917ba59d4
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: InteractiveComponent
-  - hash:
-      serializedVersion: 2
-      Hash: ee85ed5c7193d62073fe28b275548b27
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales
-    className: SpriteAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Components
-    className: ArmHeroComponent
-  - hash:
-      serializedVersion: 2
-      Hash: a1962729762d93eb0076ecdf53645226
-    assemblyName: Assembly-CSharp
-    namespaceName: GoraTales.Creatures
-    className: PointPatrol
-  - hash:
-      serializedVersion: 2
-      Hash: b36c1bea780989a0485591405c5e9628
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RouleteController
   platform: 20
   scenePathNames:
   - Assets/WalletConnect.unity
