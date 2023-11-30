@@ -46,10 +46,10 @@ public class WebGLContractRead : MonoBehaviour
         int.TryParse(calldata[0].ToString(), out int result);
         Debug.Log("Result: " + result);
 
-        if (result == 0)
+        if (result == 1)
         {
             Depth();
-        } else if (result == 1)
+        } else if (result == 2)
         {
             SceneManager.LoadScene("ComingSoon");
             Debug.Log("You Win!");
