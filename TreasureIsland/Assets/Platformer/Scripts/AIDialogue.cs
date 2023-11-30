@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using OpenAI;
+using UnityEngine.SceneManagement;
 
 public class AIDialogue : MonoBehaviour
 {
@@ -14,9 +15,21 @@ public class AIDialogue : MonoBehaviour
     
     async void Start()
     {
+        if (SceneManager.GetActiveScene().name == "GameScene")
+        {
+            Say();
+        }
+        else if (SceneManager.GetActiveScene().name == "Die")
+        {
+            Die();
+        }
+    }
+    
+    async void Say()
+    {
         _text.gameObject.SetActive(false);
         _bilboard.SetActive(false);
-        var openai = new OpenAIApi("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");
+        var openai = new OpenAIApi("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");
 
         var req = new CreateChatCompletionRequest
         {
@@ -33,25 +46,57 @@ public class AIDialogue : MonoBehaviour
         };
 
         openai.CreateChatCompletionAsync(req,
-             (responses) => {
-                 _text.gameObject.SetActive(true);
-                 _bilboard.gameObject.SetActive(true);
-                 var result = string.Join("", responses.Select(response => response.Choices[0].Delta.Content));
-                 _text.text = result;
-                 Debug.Log(result.ToString());
+            (responses) => {
+                _text.gameObject.SetActive(true);
+                _bilboard.gameObject.SetActive(true);
+                var result = string.Join("", responses.Select(response => response.Choices[0].Delta.Content));
+                _text.text = result;
 
-             },
-             () => {
-                 Debug.Log("OpenAI request complete");
-                 Invoke("CloseCanvas", 3f); // Вызываем функцию CloseCanvas через 2 секунды
-             },
-             new CancellationTokenSource()
+            },
+            () => {
+                Debug.Log("OpenAI request complete");
+                Invoke("CloseCanvas", 3f); // Вызываем функцию CloseCanvas через 2 секунды
+            },
+            new CancellationTokenSource()
+        );
+    }
+    async public void Die()
+    {
+        _text.gameObject.SetActive(false);
+        _bilboard.SetActive(false);
+        var openai = new OpenAIApi("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");
+
+        var req = new CreateChatCompletionRequest
+        {
+            Model = "gpt-3.5-turbo",
+            Messages = new List<ChatMessage>
+            {
+                new ChatMessage()
+                {
+                    Role = "user",
+                    Content = "Imagine you are a game character, an adventurer in search of treasure. Write a dialog text about the death of the character from a hidden trap, present the text on behalf of the narrator, The answer should be no longer than 20 words."
+                }
+            },
+            Temperature = 0.7f,
+        };
+
+        openai.CreateChatCompletionAsync(req,
+            (responses) => {
+                _text.gameObject.SetActive(true);
+                _bilboard.gameObject.SetActive(true);
+                var result = string.Join("", responses.Select(response => response.Choices[0].Delta.Content));
+                _text.text = result;
+
+            },
+            () => {
+                Debug.Log("OpenAI request complete");
+            },
+            new CancellationTokenSource()
         );
     }
 
     void CloseCanvas()
     {
-        // Закрываем Canvas
         if (_bilboard != null)
         {
             _text.gameObject.SetActive(false);
@@ -59,27 +104,3 @@ public class AIDialogue : MonoBehaviour
         }
     }
 }
-
-/*public class AIDialogue : MonoBehaviour
-{
-    [SerializeField] Text _text;
-    async void Start()
-    {
-        _text.text = "";
-        await SendRequest();
-    }
-    
-    
-    private async Task SendRequest()
-    {
-        var openai = new OpenAIApi("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");
-
-        var request = new CreateCompletionRequest{
-            Model="text-davinci-003",
-            Prompt="Say this is a test",
-        };
-        var response = await openai.CreateCompletion(request);
-        Debug.Log(response.ToString());
-    }
-    
-}*/
